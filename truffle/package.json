@@ -1,0 +1,19 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Taak 1 voor Groep 1 BDA@Howest",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Valérie, Thomas en Jonas",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^5.8.0",
+    "web3": "^1.0.0-beta.33"
+  },
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

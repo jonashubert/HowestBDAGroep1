@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Authenticity Checker</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha18/css/tempusdominus-bootstrap-4.min.css" />
+</head>
+<body>
+
+
+  <form>
+    <div class="container form-group">
+      <div class="row">
+        <div class="col">
+          <h1>Authenticity Checker</h1>
+          <h2 id="register">Register New Document</h2>
+          <h2 id="docinfo"></h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="title" class="control-label">Document Title</label>
+          <input id="title" class="form-control form-control-lg" placeholder="Document Title" type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="author" class="control-label">Author</label>
+          <input id="author" class="form-control form-control-lg" placeholder="Author" type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="email" class="control-label">Authors' Email Address</label>
+          <input id="email" class="form-control form-control-lg" placeholder="Authors' Email Address" type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="dateWritten" class="control-label">Date Written</label .datepicker>
+          <div class="input-group date" id="dateWritten" data-target-input="nearest">
+              <input type="text" class="form-control datetimepicker-input" id="dateWrittenInput" data-target="#dateWritten"/>
+              <div class="input-group-append" data-target="#dateWritten" data-toggle="datetimepicker">
+                  <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <label for="document">Document</label>
+          <input type="file" accept=".pdf" class="form-control-file form-control form-control-lg" placeholder="Select your document" id="document">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button id="registerButton" type="button" class="btn btn-primary">Register Document</button>
+          <button type="reset" class="btn btn-secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+  </form>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha18/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script type="text/javascript">
+         $(document).ready(function() {
+             $('#dateWritten').datetimepicker();
+         });
+     </script>
+</body>
+</html>
