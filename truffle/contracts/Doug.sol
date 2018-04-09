@@ -1,5 +1,7 @@
 pragma solidity ^0.4.17;
 
+import './DougEnabled.sol';
+
 // The Doug contract
 contract Doug {
     address owner;
@@ -20,7 +22,7 @@ contract Doug {
     function addContract(bytes32 name, address addr) onlyOwner returns (bool result) {
             DougEnabled de = DougEnabled(addr);
             // Don't add the contract if this does not work.
-            if(!de.setDougAddress(address(this))){
+            if (!de.setDOUGAddress(address(this)) ) {
                 return false;
             }
             contracts[name] = addr;
@@ -37,17 +39,13 @@ contract Doug {
     }
 
     function remove() onlyOwner {
-        address fm = contracts["fundmanager"];
-        address perms = contracts["perms"];
-        address permsdb = contracts["permsdb"];
+        address dm = contracts["docmanager"];
         address docauth = contracts["docauth"];
         address docauthdb = contracts["docauthdb"];
 
         // Remove everything
-        if (fm != 0x0) { DougEnabled(fm).remove(); }
-        if (perms != 0x0) { DougEnabled(perms).remove(); }
-        if (permsdb != 0x0) { DougEnabled(permsdb).remove(); }
-        if (docauth != 0x0) { DougEnabled(docauth).remove(); }
-        if (docauthdb != 0x0) { DougEnabled(docauthdb).remove(); }
+        if (dm != 0x0) {DougEnabled(dm).remove();}
+        if (docauth != 0x0) {DougEnabled(docauth).remove();}
+        if (docauthdb != 0x0) {DougEnabled(docauthdb).remove();}
     }
 }

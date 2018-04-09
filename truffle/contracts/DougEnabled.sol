@@ -1,5 +1,7 @@
 pragma solidity ^0.4.17;
 
+import './ContractProvider.sol'; 
+
 // Base class for contracts that are used in a doug system.
 
 contract DougEnabled {
@@ -7,7 +9,7 @@ contract DougEnabled {
 
     function setDOUGAddress(address dougAddr) returns (bool result) {
         // Once the doug address is set, don't allow it to be set again, except by the doug contract itself
-        if(DOUG != 0x0 && msg.sender != DOUG){
+        if (DOUG != 0x0 && msg.sender != DOUG) {
             return false;
         }
         DOUG = dougAddr;

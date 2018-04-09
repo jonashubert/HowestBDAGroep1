@@ -1,5 +1,8 @@
 pragma solidity ^0.4.17;
 
+import './DougEnabled.sol';
+
+
 // Base class for contracts that only allow the docmanager to call them.
 // Note that it inherits from DougEnabled
 contract DocManagerEnabled is DougEnabled {

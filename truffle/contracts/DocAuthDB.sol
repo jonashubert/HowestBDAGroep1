@@ -1,5 +1,7 @@
 pragma solidity ^0.4.17;
 
+import './DocManagerEnabled.sol';
+
 // The Doc Auth database
 contract DocAuthDB is DougEnabled {
 
@@ -32,7 +34,7 @@ contract DocAuthDB is DougEnabled {
             }
            else {
                // Return if registration cannot be made
-               msg.sender.send(msg.value);
+               //msg.sender.send(msg.value);
                return false; 
             }
         }
