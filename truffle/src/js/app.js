@@ -21,13 +21,13 @@ App = {
     },
   
     initContract: function() {
-      $.getJSON('DocAuth.json', function(data) {
+      $.getJSON('DocManager.json', function(data) {
         // Get the necessary contract artifact file and instantiate it with truffle-contract
-        var DocAuthArtifact = data;
-        App.contracts.DocAuth = TruffleContract(DocAuthArtifact);
+        var DocManagerArtifact = data;
+        App.contracts.DocManager = TruffleContract(DocManagerArtifact);
   
         // Set the provider for our contract
-        App.contracts.DocAuth.setProvider(App.web3Provider);
+        App.contracts.DocManager.setProvider(App.web3Provider);
       });
   
       return App.bindEvents();
@@ -53,7 +53,7 @@ App = {
   
         var account = accounts[0];
   
-        App.contracts.DocAuth.deployed().then(function(instance) {
+        App.contracts.DocManager.deployed().then(function(instance) {
           docAuthChecker = instance;
   
   
@@ -135,7 +135,7 @@ App = {
   
         var account = accounts[0];
   
-        App.contracts.DocAuth.deployed().then(function(instance) {
+        App.contracts.DocManager.deployed().then(function(instance) {
           docAuthChecker = instance;
   
   

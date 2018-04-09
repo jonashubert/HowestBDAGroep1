@@ -1,7 +1,6 @@
 pragma solidity ^0.4.17;
 
 import './DougEnabled.sol';
-import './PermissionsDB.sol';
 import './DocAuth.sol';
 
 // The Doc Manager
@@ -28,7 +27,7 @@ contract DocManager is DougEnabled {
        // if (docauth == 0x0 || permsdb == 0x0 || PermissionsDB(permsdb).perms(msg.sender) < 1 ) {
            if (docauth == 0X0 ) {
             // if the user send money, we should return it if we can't register
-            msg.sender.send(msg.value);
+            //msg.sender.send(msg.value);
             return false;
         }
 
@@ -38,7 +37,7 @@ contract DocManager is DougEnabled {
 
         // if the transaction failed, return the Ether to the caller
         if (!success) {
-            msg.sender.send(msg.value);
+           // msg.sender.send(msg.value);
         }
         return success;
 
