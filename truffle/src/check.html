@@ -20,15 +20,18 @@
     </ul>
   </header>
 
-  <form>
-    <div class="container form-group">
-      <div class="row">
-        <div class="col">
-          <h1>Authenticity Checker</h1>
-          <h2 id="register">Check Authenticity</h2>
-          <h3 id="docinfo"></h3>
-        </div>
+  <div class="container ">
+    <div class="row">
+      <div class="col">
+        <h1>Authenticity Checker</h1>
+        <h2 id="register">Check Authenticity</h2>
       </div>
+    </div>
+    <div id="docinfo" class="alert alert-success" style="display:none" role="alert"></div>
+  </div>
+
+  <form id="mainForm">
+    <div class="container form-group">
       <div class="row">
         <div class="col">
           <label for="document">Select your document</label>
@@ -43,14 +46,19 @@
       </div>
     </div>
   </form>
+
+  <div class="overlay" style="display:none">
+    <div class="loaderContainer">
+      <div class="loader"></div>
+    </div>    
+  </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>

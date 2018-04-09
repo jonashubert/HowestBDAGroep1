@@ -41,17 +41,9 @@ App = {
 
   register: function(event) {
     event.preventDefault();
-
-    //validate
-    //todo: selected date
-    var author = web3.toHex($('#author').val());
-    var title = web3.toHex($('#title').val());
-    var email = web3.toHex($('#email').val());
-    var fileInput = document.getElementById('document');
-    var file = fileInput.files[0];
-
-
-
+    if(!$("#documentForm").valid()) { return false; }
+    $('.overlay').show();
+    $('.loaderContainer').show();
     var docAuthChecker;
 
     web3.eth.getAccounts(function(error, accounts) {
@@ -93,14 +85,14 @@ App = {
                 $('#docinfo').css('font-size','120%');
                 $("#docinfo").append("<h3 class='alert-heading'>This document was already registered!</h3><h4>Here's some information about it:</h4>")
                 $("#docinfo").append('<hr>');
-                $("#docinfo").append('<p class="mb-0">Author: ' + author + '</p>')
-                $("#docinfo").append('<p>Title: ' + title + '</p>')
-                $("#docinfo").append('<p>Author\'s emailaddress: ' + email + '</p>')
-                $("#docinfo").append('<p>Written on: ' + dateWritten + '</p>')
-                $("#docinfo").append('<p>Registered on: ' + dateRegistered + '</p>')
+                $("#docinfo").append('<p class="mb-0"><strong>Author:</strong> ' + author + '</p>')
+                $("#docinfo").append('<p class="mb-0"><strong>Title:</strong> ' + title + '</p>')
+                $("#docinfo").append('<p class="mb-0"><strong>Author\'s emailaddress:</strong> ' + email + '</p>')
+                $("#docinfo").append('<p class="mb-0"><strong>Written on:</strong> ' + dateWritten + '</p>')
+                $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
                 $("#docinfo").append('<hr>');
                 $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/index.html\'">Register Another Document</button>')
-
+                $('.overlay').hide();
               } else {
                 var date = $('#dateWritten').val().replace(/-/g, '');
                 //register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten
@@ -109,11 +101,14 @@ App = {
                 var email = web3.toHex($('#email').val());
                 var result = docAuthChecker.register(hash, author, title, email, date, {from: account});
                 result.then(function(result) {
-                  console.log("stuff worked");
-                }, function(err) {
-                  console.log("stuff failed");
-                });
+                  $('.loaderContainer').hide();
+                  $('.succesContainer').show();
 
+                }, function(err) {
+                  $('.loaderContainer').hide();
+                  $('.errorContainer').show();
+
+                });
               }
             }
           )
@@ -130,7 +125,7 @@ App = {
   checkAuthenticity:  function(event)
   {
     event.preventDefault();
-
+    $(".overlay").show();
     var docAuthChecker;
 
     web3.eth.getAccounts(function(error, accounts) {
@@ -157,24 +152,37 @@ App = {
 
           docAuthChecker.getDocument.call(hash).then(
             function(tuple) {
+              $("#mainForm").hide();
+                $("#docinfo").show();
+
               var isInitialized = tuple[5];
               if (isInitialized) {
-                var author = web3.toAscii(tuple[0]);
-                var title = web3.toAscii(tuple[1]);
-                var email = web3.toAscii(tuple[2]);
-                var dateWritten = tuple[3];
-                var dateRegistered =  tuple[4];
-                $('#docinfo').css('font-size','120%');
-                $("#docinfo").append("<h3>This document has been registered!<br/> Here's some information about it:</h3>")
-                $("#docinfo").append('<p>Author: ' + author + '</p>')
-                $("#docinfo").append('<p>Title: ' + title + '</p>')
-                $("#docinfo").append('<p>Author\'s emailaddress: ' + email + '</p>')
-                $("#docinfo").append('<p>Written on: ' + dateWritten + '</p>')
-                $("#docinfo").append('<p>Registered on: ' + dateRegistered + '</p>')
+                  var author = web3.toAscii(tuple[0]);
+                  var title = web3.toAscii(tuple[1]);
+                  var email = web3.toAscii(tuple[2]);
+                  var dateWrittenTemp = Date.parseExact(tuple[3].toString(),"yyyyMMdd");
+                  var dateWritten = dateWrittenTemp.toString("dd-MM-yyyy");
+                  var dateRegisteredTemp = new Date(tuple[4] * 1000); //convert unix timestamp to ms
+                  var dateRegistered =  dateRegisteredTemp.toString("dd-MM-yyyy HH:mm");
+                  $('#docinfo').css('font-size','120%');
+                  $("#docinfo").append("<h3 class='alert-heading'>This document was already registered!</h3><h4>Here's some information about it:</h4>")
+                  $("#docinfo").append('<hr>');
+                  $("#docinfo").append('<p class="mb-0"><strong>Author:</strong> ' + author + '</p>')
+                  $("#docinfo").append('<p class="mb-0"><strong>Title:</strong> ' + title + '</p>')
+                  $("#docinfo").append('<p class="mb-0"><strong>Author\'s emailaddress:</strong> ' + email + '</p>')
+                  $("#docinfo").append('<p class="mb-0"><strong>Written on:</strong> ' + dateWritten + '</p>')
+                  $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
+                  $("#docinfo").append('<hr>');
+                  $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/check.html\'">Check Another Document</button>')
+
 
               } else {
-                    $("#docinfo").append('This document was not yet registered! <a href="/index.html">Click here to register it.</a>')
+                $("#docinfo").append('This document is not yet registered!')
+                $("#docinfo").append('<hr>');
+                $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/index.html\'">Register</button>')
+
               }
+              $(".overlay").hide();
             }
           )
         }

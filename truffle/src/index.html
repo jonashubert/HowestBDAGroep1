@@ -30,30 +30,30 @@
   <div id="docinfo" class="alert alert-success" style="display:none" role="alert"></div>
 </div>
 
-  <form>
+  <form id="documentForm">
     <div class="container form-group mainForm">
       <div class="row">
         <div class="col">
           <label for="title" class="control-label">Document Title</label>
-          <input id="title" class="form-control form-control-lg" placeholder="Document Title" type="text">
+          <input id="title" name="title" class="form-control form-control-lg" required placeholder="Document Title" type="text">
         </div>
       </div>
       <div class="row">
         <div class="col">
           <label for="author" class="control-label">Author</label>
-          <input id="author" class="form-control form-control-lg" placeholder="Author" type="text">
+          <input id="author" name="author" class="form-control form-control-lg" required placeholder="Author" type="text">
         </div>
       </div>
       <div class="row">
         <div class="col">
           <label for="email" class="control-label">Authors' Email Address</label>
-          <input id="email" class="form-control form-control-lg" placeholder="Authors' Email Address" type="text">
+          <input id="email" name="email" class="form-control form-control-lg" required placeholder="Authors' Email Address" type="text">
         </div>
       </div>
       <div class="row">
         <div class="col">
           <label for="dateWritten" class="control-label">Date Written</label>
-          <input id="dateWritten" type="date" class="form-control form-control-lg"/>
+          <input id="dateWritten" name="dateWritten" type="date" required class="form-control form-control-lg"/>
         <!--  <div class="input-group date" id="dateWritten" data-target-input="nearest">
               <input type="text" class="form-control datetimepicker-input" id="dateWrittenInput" data-target="#dateWritten"/>
               <div class="input-group-append" data-target="#dateWritten" data-toggle="datetimepicker">
@@ -65,7 +65,7 @@
       <div class="row">
         <div class="col">
           <label for="document">Document</label>
-          <input type="file" accept=".pdf" class="form-control-file form-control form-control-lg" placeholder="Select your document" id="document">
+          <input type="file" name="file" accept=".pdf" required class="form-control-file form-control form-control-lg" placeholder="Select your document" id="document">
         </div>
       </div>
       <div class="row">
@@ -76,6 +76,19 @@
       </div>
     </div>
   </form>
+  <div class="overlay" style="display:none">
+    <div class="loaderContainer" style="display:none">
+      <div class="loader"></div>
+    </div>
+    <div class="succesContainer alert alert-success" role="alert" style="display:none">
+         <h3>Hoerai! Your document was succesfully registered.</h3>
+         <button type="button" class="btn btn-primary" onclick="window.location='/index.html'">Ok</button>
+    </div>
+    <div class="errorContainer alert alert-danger" role="alert" style="display:none">
+       <h3>Whoops! Something went wrong, and the document is not registered. </h3>
+       <button type="button" class="btn btn-primary" onclick="window.location='/index.html'">Try again</button>
+    </div>
+  </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -83,20 +96,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/web3.min.js"></script>
     <script src="js/truffle-contract.js"></script>
 
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha18/js/tempusdominus-bootstrap-4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
 
     <script src="js/app.js"></script>
-  <!--  <script type="text/javascript">
-         $(document).ready(function() {
-             $('#dateWritten').datetimepicker();
-         });
-     </script> -->
+    <script type="text/javascript">
+      jQuery.validator.setDefaults({
+        debug: true,
+        success: "valid"
+      });
+
+      $("#documentForm").validate({
+        rules: {
+          email: {
+            required: true,
+            email: true
+          }
+        }
+      });
+   </script>
 </body>
 </html>
