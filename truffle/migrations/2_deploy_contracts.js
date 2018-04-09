@@ -6,7 +6,7 @@ var DocAuth = artifacts.require("DocAuth");
 
 
 module.exports = function(deployer) {
-  deployer.deploy(DOUG).then(() => {
+  deployer.deploy(Doug).then(() => {
     return deployer.deploy([
     DocAuth,
     DocAuthDB,

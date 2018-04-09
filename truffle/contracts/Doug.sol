@@ -19,7 +19,7 @@ contract Doug {
     }
 
     // Add a new contract to Doug. This will overwrite an existing contract.
-    function addContract(bytes32 name, address addr) onlyOwner returns (bool result) {
+    function addContract(bytes32 name, address addr) onlyOwner public returns (bool result) {
             DougEnabled de = DougEnabled(addr);
             // Don't add the contract if this does not work.
             if (!de.setDOUGAddress(address(this)) ) {
@@ -30,7 +30,7 @@ contract Doug {
     }
 
     // Remove a contract from Doug. We could also selfdestruct if we want to.
-    function removeContract(bytes32 name) onlyOwner returns (bool result){
+    function removeContract(bytes32 name) onlyOwner public returns (bool result){
         if (contracts[name] == 0x0) {
             return false;
         }
@@ -38,7 +38,7 @@ contract Doug {
         return true;
     }
 
-    function remove() onlyOwner {
+    function remove() onlyOwner public {
         address dm = contracts["docmanager"];
         address docauth = contracts["docauth"];
         address docauthdb = contracts["docauthdb"];

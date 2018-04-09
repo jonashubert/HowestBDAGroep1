@@ -8,7 +8,7 @@ import './DougEnabled.sol';
 contract DocManagerEnabled is DougEnabled {
 
     //makes it easier to check that fundmanager is the caller.
-    function isDocManager() constant returns (bool) {
+    function isDocManager() public constant returns (bool) {
         if(DOUG != 0x0) {
             address dm = ContractProvider(DOUG).contracts("docmanager");
             return msg.sender == dm;

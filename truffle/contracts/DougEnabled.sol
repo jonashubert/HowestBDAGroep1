@@ -7,7 +7,7 @@ import './ContractProvider.sol';
 contract DougEnabled {
     address DOUG;
 
-    function setDOUGAddress(address dougAddr) returns (bool result) {
+    function setDOUGAddress(address dougAddr) public returns (bool result) {
         // Once the doug address is set, don't allow it to be set again, except by the doug contract itself
         if (DOUG != 0x0 && msg.sender != DOUG) {
             return false;
@@ -17,7 +17,7 @@ contract DougEnabled {
     }
 
     // Makes it so that Doug is the only contract that may kill it
-    function remove() {
+    function remove() public {
         if (msg.sender == DOUG) {
             selfdestruct(DOUG);
         }
