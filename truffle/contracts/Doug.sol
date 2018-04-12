@@ -14,12 +14,12 @@ contract Doug {
         _;
     }
     //Constructor
-    function Doug() {
+    function Doug() public {
         owner = msg.sender;
     }
 
     // Add a new contract to Doug. This will overwrite an existing contract.
-    function addContract(bytes32 name, address addr) onlyOwner public returns (bool result) {
+    function addContract(bytes32 name, address addr) public returns (bool result) {
             DougEnabled de = DougEnabled(addr);
             // Don't add the contract if this does not work.
             if (!de.setDOUGAddress(address(this)) ) {

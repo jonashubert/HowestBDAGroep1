@@ -123,14 +123,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6106328061001e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610072578063618e6ce6146100c35780637a1a595614610102578063a7f4377914610171578063b10d6b4114610186575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610200565b604051808215151515815260200191505060405180910390f35b34156100ce57600080fd5b6100e86004808035600019169060200190919050506102ee565b604051808215151515815260200191505060405180910390f35b341561010d57600080fd5b61015760048080356000191690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803590602001909190505061031b565b604051808215151515815260200191505060405180910390f35b341561017c57600080fd5b61018461050c565b005b341561019157600080fd5b6101ab60048080356000191690602001909190505061059d565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561029657506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b156102a457600090506102e9565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000806102fa8361059d565b90919293945090919293509091925090915090508091505080915050919050565b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141515610500576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736000604051602001526040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468000000000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561041857600080fd5b6102c65a03f1151561042957600080fd5b5050506040518051905091508173ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161480156104765750610474886102ee565b155b156104f757600160008960001916600019168152602001908152602001600020905086816000018160001916905550858160010181600019169055508481600201816000191690555083816003018190555042816004018190555060018160050160006101000a81548160ff02191690831515021790555060019250610501565b60009250610501565b5b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561059b576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060008060008060006001600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a7230582072857d1cc886fb003019d79404d4b63c61a546f0301371dbaaeb9b831b79e89c0029",
-  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610072578063618e6ce6146100c35780637a1a595614610102578063a7f4377914610171578063b10d6b4114610186575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610200565b604051808215151515815260200191505060405180910390f35b34156100ce57600080fd5b6100e86004808035600019169060200190919050506102ee565b604051808215151515815260200191505060405180910390f35b341561010d57600080fd5b61015760048080356000191690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803590602001909190505061031b565b604051808215151515815260200191505060405180910390f35b341561017c57600080fd5b61018461050c565b005b341561019157600080fd5b6101ab60048080356000191690602001909190505061059d565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561029657506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b156102a457600090506102e9565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000806102fa8361059d565b90919293945090919293509091925090915090508091505080915050919050565b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141515610500576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736000604051602001526040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468000000000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561041857600080fd5b6102c65a03f1151561042957600080fd5b5050506040518051905091508173ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161480156104765750610474886102ee565b155b156104f757600160008960001916600019168152602001908152602001600020905086816000018160001916905550858160010181600019169055508481600201816000191690555083816003018190555042816004018190555060018160050160006101000a81548160ff02191690831515021790555060019250610501565b60009250610501565b5b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561059b576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060008060008060006001600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a7230582072857d1cc886fb003019d79404d4b63c61a546f0301371dbaaeb9b831b79e89c0029",
+  "bytecode": "0x6060604052341561000f57600080fd5b6106258061001e6000396000f30060606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610072578063618e6ce6146100c35780637a1a595614610102578063a7f4377914610171578063b10d6b4114610186575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610200565b604051808215151515815260200191505060405180910390f35b34156100ce57600080fd5b6100e86004808035600019169060200190919050506102ee565b604051808215151515815260200191505060405180910390f35b341561010d57600080fd5b61015760048080356000191690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803590602001909190505061031b565b604051808215151515815260200191505060405180910390f35b341561017c57600080fd5b6101846104ff565b005b341561019157600080fd5b6101ab600480803560001916906020019091905050610590565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561029657506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b156102a457600090506102e9565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000806102fa83610590565b90919293945090919293509091925090915090508091505080915050919050565b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415156104f3576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468000000000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561040f57600080fd5b5af1151561041c57600080fd5b5050506040518051905091508173ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161480156104695750610467886102ee565b155b156104ea57600160008960001916600019168152602001908152602001600020905086816000018160001916905550858160010181600019169055508481600201816000191690555083816003018190555042816004018190555060018160050160006101000a81548160ff021916908315150217905550600192506104f4565b600092506104f4565b5b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561058e576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060008060008060006001600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a7230582070a20134b51b82a203953dcc18c89a7f82e5271aa5c964a9e4bd3de8cdb962e00029",
+  "deployedBytecode": "0x60606040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610072578063618e6ce6146100c35780637a1a595614610102578063a7f4377914610171578063b10d6b4114610186575b600080fd5b341561007d57600080fd5b6100a9600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610200565b604051808215151515815260200191505060405180910390f35b34156100ce57600080fd5b6100e86004808035600019169060200190919050506102ee565b604051808215151515815260200191505060405180910390f35b341561010d57600080fd5b61015760048080356000191690602001909190803560001916906020019091908035600019169060200190919080356000191690602001909190803590602001909190505061031b565b604051808215151515815260200191505060405180910390f35b341561017c57600080fd5b6101846104ff565b005b341561019157600080fd5b6101ab600480803560001916906020019091905050610590565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561029657506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b156102a457600090506102e9565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000806102fa83610590565b90919293945090919293509091925090915090508091505080915050919050565b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415156104f3576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468000000000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561040f57600080fd5b5af1151561041c57600080fd5b5050506040518051905091508173ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161480156104695750610467886102ee565b155b156104ea57600160008960001916600019168152602001908152602001600020905086816000018160001916905550858160010181600019169055508481600201816000191690555083816003018190555042816004018190555060018160050160006101000a81548160ff021916908315150217905550600192506104f4565b600092506104f4565b5b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561058e576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b565b60008060008060008060006001600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a7230582070a20134b51b82a203953dcc18c89a7f82e5271aa5c964a9e4bd3de8cdb962e00029",
   "sourceMap": "91:2299:2:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "91:2299:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:317:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1962:218:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1038:916;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;570:105:4;;;;;;;;;;;;;;503:527:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:317:4;228:11;373:3;365:4;;;;;;;;;;;:11;;;;:33;;;;;394:4;;;;;;;;;;;380:18;;:10;:18;;;;365:33;361:78;;;422:5;415:12;;;;361:78;456:8;449:4;;:15;;;;;;;;;;;;;;;;;;482:4;475:11;;177:317;;;;:::o;1962:218:2:-;2028:4;2045:25;2116:18;2128:5;2116:11;:18::i;:::-;2081:53;;;;;;;;;;;;;;;;;;;;;;;;2152:20;2145:27;;1962:218;;;;:::o;1038:916::-;1155:4;1204:15;1359:26;1184:3;1176:4;;;;;;;;;;;:11;;;;1172:761;;;1239:4;;;;;;;;;;;1222:32;;;:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1204:61;;1298:7;1284:21;;:10;:21;;;:53;;;;;1310:27;1331:5;1310:20;:27::i;:::-;1309:28;1284:53;1280:642;;;1388:15;:22;1404:5;1388:22;;;;;;;;;;;;;;;;;1359:51;;1448:7;1429:9;:16;;:26;;;;;;;1492:6;1474:9;:15;;:24;;;;;;;1535:6;1517:9;:15;;:24;;;;;;;1584:12;1560:9;:21;;:36;;;;1642:15;1615:9;:24;;:42;;;;1702:4;1676:9;:23;;;:30;;;;;;;;;;;;;;;;;;1734:4;1727:11;;;;1280:642;1900:5;1893:12;;;;1172:761;1038:916;;;;;;;;;;:::o;570:105:4:-;617:4;;;;;;;;;;;603:18;;:10;:18;;;599:69;;;651:4;;;;;;;;;;;638:18;;;599:69;570:105::o;503:527:2:-;560:7;568;576;584;592;601:4;827:26;856:15;:22;872:5;856:22;;;;;;;;;;;;;;;;;827:51;;897:9;:16;;;915:9;:15;;;932:9;:15;;;949:9;:21;;;972:9;:24;;;998:9;:23;;;;;;;;;;;;889:133;;;;;;;;;;;;503:527;;;;;;;;:::o",
+  "deployedSourceMap": "91:2299:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:324:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1962:218:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1038:916;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;577:112:6;;;;;;;;;;;;;;503:527:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:324:6;235:11;380:3;372:4;;;;;;;;;;;:11;;;;:33;;;;;401:4;;;;;;;;;;;387:18;;:10;:18;;;;372:33;368:78;;;429:5;422:12;;;;368:78;463:8;456:4;;:15;;;;;;;;;;;;;;;;;;489:4;482:11;;177:324;;;;:::o;1962:218:2:-;2028:4;2045:25;2116:18;2128:5;2116:11;:18::i;:::-;2081:53;;;;;;;;;;;;;;;;;;;;;;;;2152:20;2145:27;;1962:218;;;;:::o;1038:916::-;1155:4;1204:15;1359:26;1184:3;1176:4;;;;;;;;;;;:11;;;;1172:761;;;1239:4;;;;;;;;;;;1222:32;;;:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1204:61;;1298:7;1284:21;;:10;:21;;;:53;;;;;1310:27;1331:5;1310:20;:27::i;:::-;1309:28;1284:53;1280:642;;;1388:15;:22;1404:5;1388:22;;;;;;;;;;;;;;;;;1359:51;;1448:7;1429:9;:16;;:26;;;;;;;1492:6;1474:9;:15;;:24;;;;;;;1535:6;1517:9;:15;;:24;;;;;;;1584:12;1560:9;:21;;:36;;;;1642:15;1615:9;:24;;:42;;;;1702:4;1676:9;:23;;;:30;;;;;;;;;;;;;;;;;;1734:4;1727:11;;;;1280:642;1900:5;1893:12;;;;1172:761;1038:916;;;;;;;;;;:::o;577:112:6:-;631:4;;;;;;;;;;;617:18;;:10;:18;;;613:69;;;665:4;;;;;;;;;;;652:18;;;613:69;577:112::o;503:527:2:-;560:7;568;576;584;592;601:4;827:26;856:15;:22;872:5;856:22;;;;;;;;;;;;;;;;;827:51;;897:9;:16;;;915:9;:15;;;932:9;:15;;;949:9;:21;;;972:9;:24;;;998:9;:23;;;;;;;;;;;;889:133;;;;;;;;;;;;503:527;;;;;;;;:::o",
   "source": "pragma solidity ^0.4.17;\r\n\r\nimport './DocManagerEnabled.sol';\r\n\r\n// The Doc Auth database\r\ncontract DocAuthDB is DougEnabled {\r\n\r\n   //This is where we keep all the contracts\r\n    mapping(bytes32 => Document) private documentLibrary;\r\n\r\n    /// Function gets an entry from the document library. Returns the metadata of the document.\r\n    /// Will always return a Document object, even when the document doesn't exist.\r\n    /// Check the property \"isInitialized\" to confirm it's not an empty value.\r\n    function getDocument(bytes32 _hash) public view returns (bytes32,bytes32,bytes32,uint256,uint256, bool) {\r\n        //todo: teruggeven van struct is blijkbaar niet goed. Hervormen naar \"losse variabelen\".\r\n        //https://ethereum.stackexchange.com/questions/3609/returning-a-struct-and-reading-via-web3/3614#3614\r\n        Document storage _document = documentLibrary[_hash];\r\n        return (_document.author, _document.title, _document.email, _document.dateWritten, _document.dateRegistered, _document.isInitialized);\r\n    }\r\n\r\n    function register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten) public returns (bool) {\r\n        if (DOUG != 0x0) {\r\n            address docauth = ContractProvider(DOUG).contracts(\"docauth\");\r\n            if (msg.sender == docauth && !isDocumentRegistered(_hash) ) {\r\n                Document storage _document = documentLibrary[_hash];\r\n                _document.author = _author;\r\n                _document.title = _title;\r\n                _document.email = _email;\r\n                _document.dateWritten = _dateWritten;\r\n                _document.dateRegistered = block.timestamp;\r\n                _document.isInitialized = true;\r\n\r\n                return true;\r\n            }\r\n           else {\r\n               // Return if registration cannot be made\r\n               //msg.sender.send(msg.value);\r\n               return false; \r\n            }\r\n        }\r\n            \r\n    }\r\n\r\n    function isDocumentRegistered(bytes32 _hash) public view returns (bool) {\r\n        bool _storedIsInitialized;\r\n        (, , , , , _storedIsInitialized) = getDocument(_hash);\r\n        return _storedIsInitialized;\r\n    }\r\n\r\n    struct Document {\r\n        bytes32  author;\r\n        bytes32  title;\r\n        bytes32  email;\r\n        uint256  dateWritten;\r\n        uint256  dateRegistered;\r\n        bool  isInitialized;\r\n    }\r\n\r\n\r\n} ",
-  "sourcePath": "c:\\Blockchain\\GitHub\\HowestBDAGroep1\\truffle\\contracts\\DocAuthDB.sol",
+  "sourcePath": "C:\\BDA\\T1\\HowestBDAGroep1-master\\truffle\\contracts\\DocAuthDB.sol",
   "ast": {
-    "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuthDB.sol",
+    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuthDB.sol",
     "exportedSymbols": {
       "DocAuthDB": [
         245
@@ -151,12 +151,12 @@
         "src": "0:24:2"
       },
       {
-        "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocManagerEnabled.sol",
+        "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocManagerEnabled.sol",
         "file": "./DocManagerEnabled.sol",
         "id": 78,
         "nodeType": "ImportDirective",
         "scope": 246,
-        "sourceUnit": 279,
+        "sourceUnit": 371,
         "src": "28:33:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -170,10 +170,10 @@
               "id": 79,
               "name": "DougEnabled",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 324,
+              "referencedDeclaration": 563,
               "src": "113:11:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DougEnabled_$324",
+                "typeIdentifier": "t_contract$_DougEnabled_$563",
                 "typeString": "contract DougEnabled"
               }
             },
@@ -183,7 +183,7 @@
           }
         ],
         "contractDependencies": [
-          324
+          563
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -191,7 +191,7 @@
         "id": 245,
         "linearizedBaseContracts": [
           245,
-          324
+          563
         ],
         "name": "DocAuthDB",
         "nodeType": "ContractDefinition",
@@ -526,6 +526,7 @@
                 }
               ]
             },
+            "documentation": "Function gets an entry from the document library. Returns the metadata of the document.\r\n Will always return a Document object, even when the document doesn't exist.\r\n Check the property \"isInitialized\" to confirm it's not an empty value.\r",
             "id": 122,
             "implemented": true,
             "isConstructor": false,
@@ -760,7 +761,7 @@
                       "name": "DOUG",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 283,
+                      "referencedDeclaration": 522,
                       "src": "1176:4:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -873,7 +874,7 @@
                                   "name": "DOUG",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 283,
+                                  "referencedDeclaration": 522,
                                   "src": "1239:4:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_address",
@@ -975,7 +976,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 336,
+                                "referencedDeclaration": 576,
                                 "src": "1284:3:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -1502,7 +1503,7 @@
                                     "name": "block",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 328,
+                                    "referencedDeclaration": 567,
                                     "src": "1642:5:2",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_block",
@@ -1632,6 +1633,7 @@
                 }
               ]
             },
+            "documentation": null,
             "id": 211,
             "implemented": true,
             "isConstructor": false,
@@ -1982,6 +1984,7 @@
                 }
               ]
             },
+            "documentation": null,
             "id": 231,
             "implemented": true,
             "isConstructor": false,
@@ -2237,7 +2240,7 @@
     "src": "0:2391:2"
   },
   "legacyAST": {
-    "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuthDB.sol",
+    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuthDB.sol",
     "exportedSymbols": {
       "DocAuthDB": [
         245
@@ -2258,12 +2261,12 @@
         "src": "0:24:2"
       },
       {
-        "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocManagerEnabled.sol",
+        "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocManagerEnabled.sol",
         "file": "./DocManagerEnabled.sol",
         "id": 78,
         "nodeType": "ImportDirective",
         "scope": 246,
-        "sourceUnit": 279,
+        "sourceUnit": 371,
         "src": "28:33:2",
         "symbolAliases": [],
         "unitAlias": ""
@@ -2277,10 +2280,10 @@
               "id": 79,
               "name": "DougEnabled",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 324,
+              "referencedDeclaration": 563,
               "src": "113:11:2",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_DougEnabled_$324",
+                "typeIdentifier": "t_contract$_DougEnabled_$563",
                 "typeString": "contract DougEnabled"
               }
             },
@@ -2290,7 +2293,7 @@
           }
         ],
         "contractDependencies": [
-          324
+          563
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -2298,7 +2301,7 @@
         "id": 245,
         "linearizedBaseContracts": [
           245,
-          324
+          563
         ],
         "name": "DocAuthDB",
         "nodeType": "ContractDefinition",
@@ -2633,6 +2636,7 @@
                 }
               ]
             },
+            "documentation": "Function gets an entry from the document library. Returns the metadata of the document.\r\n Will always return a Document object, even when the document doesn't exist.\r\n Check the property \"isInitialized\" to confirm it's not an empty value.\r",
             "id": 122,
             "implemented": true,
             "isConstructor": false,
@@ -2867,7 +2871,7 @@
                       "name": "DOUG",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 283,
+                      "referencedDeclaration": 522,
                       "src": "1176:4:2",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -2980,7 +2984,7 @@
                                   "name": "DOUG",
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
-                                  "referencedDeclaration": 283,
+                                  "referencedDeclaration": 522,
                                   "src": "1239:4:2",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_address",
@@ -3082,7 +3086,7 @@
                                 "name": "msg",
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
-                                "referencedDeclaration": 336,
+                                "referencedDeclaration": 576,
                                 "src": "1284:3:2",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_magic_message",
@@ -3609,7 +3613,7 @@
                                     "name": "block",
                                     "nodeType": "Identifier",
                                     "overloadedDeclarations": [],
-                                    "referencedDeclaration": 328,
+                                    "referencedDeclaration": 567,
                                     "src": "1642:5:2",
                                     "typeDescriptions": {
                                       "typeIdentifier": "t_magic_block",
@@ -3739,6 +3743,7 @@
                 }
               ]
             },
+            "documentation": null,
             "id": 211,
             "implemented": true,
             "isConstructor": false,
@@ -4089,6 +4094,7 @@
                 }
               ]
             },
+            "documentation": null,
             "id": 231,
             "implemented": true,
             "isConstructor": false,
@@ -4345,9 +4351,16 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "1523559356352": {
+      "events": {},
+      "links": {},
+      "address": "0xb41fdf7b48034446539d66749558ee2c73c5dbc4",
+      "transactionHash": "0x6877fc9fb2dd4235982ef0f3dd63e480c3edd6f71d0ce292976058235b7d412c"
+    }
+  },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-09T15:58:29.117Z"
+  "updatedAt": "2018-04-12T19:19:33.658Z"
 }

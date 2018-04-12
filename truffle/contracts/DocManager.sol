@@ -11,7 +11,7 @@ contract DocManager is DougEnabled {
     address owner;
 
     //Constructor
-    function DocManager() {
+    function DocManager () public {
         owner  = msg.sender;
     }
 

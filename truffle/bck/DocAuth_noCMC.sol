@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 
-contract DocAuth {
+contract DocAuth_noCMC {
    //This is where we keep all the contracts
     mapping(bytes32 => Document) private documentLibrary;
 

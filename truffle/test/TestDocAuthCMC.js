@@ -16,6 +16,7 @@ contract('DOUG', () => {
      }).to.not.throw()
     })
   })
+
   it("Should add DocManager to the register", () => {
     return DocManager.deployed().then(instance => {
       DocManagerinstance = instance
@@ -25,7 +26,7 @@ contract('DOUG', () => {
     })
   })
   it("Should add DocAuthDB to the register", () => {
-    return docAuthDB.deployed().then(instance => {
+    return DocAuthDB.deployed().then(instance => {
       DocAuthDBinstance = instance
       expect(() => {
         return DOUGinstance.addContract("DocAuthDB", DocAuthDBinstance.address)
