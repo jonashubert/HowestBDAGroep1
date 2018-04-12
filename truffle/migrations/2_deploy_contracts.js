@@ -25,20 +25,20 @@ deployer.then(function() {
 }).then(function(instance){
   DocAuthinst = instance;
   // Add DocAuth contract to DOUG
-  return DOUGinst.addContract("DocAuth", DocAuthinst.address);
+  return DOUGinst.addContract("docauth", DocAuthinst.address);
 }).then(function(instance) {
   // Get the deployed instance of DocAuthDB
     return DocAuthDB.deployed;
 }).then(function(instance) {
     DocAuthDBinst = instance;
-    return DOUGinst.addContract("DocAuthDB", DocAuthDBinst.address);
+    return DOUGinst.addContract("docauthdb", DocAuthDBinst.address);
 }).then(function(){
     // Get the deployed instance of DocManager
     return DocManager.deployed;
 }).then(function(instance){
   // Add DocManager to doug contract
     DocManagerinst = instance;
-    return Douginst.addContract("DocManager", DocManagerinst.address);
+    return Douginst.addContract("docmanager", DocManagerinst.address);
 
 })
 
