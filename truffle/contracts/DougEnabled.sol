@@ -1,0 +1,25 @@
+pragma solidity ^0.4.17;
+
+import './ContractProvider.sol'; 
+
+// Base class for contracts that are used in a doug system.
+
+contract DougEnabled {
+    address DOUG;
+
+    function setDOUGAddress(address dougAddr) public returns (bool result) {
+        // Once the doug address is set, don't allow it to be set again, except by the doug contract itself
+        if (DOUG != 0x0 && msg.sender != DOUG) {
+            return false;
+        }
+        DOUG = dougAddr;
+        return true;
+    }
+
+    // Makes it so that Doug is the only contract that may kill it
+    function remove() public {
+        if (msg.sender == DOUG) {
+            selfdestruct(DOUG);
+        }
+    }
+}

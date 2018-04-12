@@ -95,24 +95,24 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6102e18061001e6000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063618e6ce61461005c5780637a1a59561461009b578063b10d6b411461010a575b600080fd5b341561006757600080fd5b610081600480803560001916906020019091905050610184565b604051808215151515815260200191505060405180910390f35b34156100a657600080fd5b6100f06004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506101b1565b604051808215151515815260200191505060405180910390f35b341561011557600080fd5b61012f60048080356000191690602001909190505061024d565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806101908361024d565b90919293945090919293509091925090915090508091505080915050919050565b6000806101bd87610184565b151561023e576000808860001916600019168152602001908152602001600020905085816000018160001916905550848160010181600019169055508381600201816000191690555082816003018190555042816004018190555060018160050160006101000a81548160ff02191690831515021790555060019150610243565b600091505b5095945050505050565b600080600080600080600080600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a72305820922dd7ed3f5adebc22545c856e9db801298e582cd185657e884efc5459efd6430029",
-  "deployedBytecode": "0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063618e6ce61461005c5780637a1a59561461009b578063b10d6b411461010a575b600080fd5b341561006757600080fd5b610081600480803560001916906020019091905050610184565b604051808215151515815260200191505060405180910390f35b34156100a657600080fd5b6100f06004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506101b1565b604051808215151515815260200191505060405180910390f35b341561011557600080fd5b61012f60048080356000191690602001909190505061024d565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806101908361024d565b90919293945090919293509091925090915090508091505080915050919050565b6000806101bd87610184565b151561023e576000808860001916600019168152602001908152602001600020905085816000018160001916905550848160010181600019169055508381600201816000191690555082816003018190555042816004018190555060018160050160006101000a81548160ff02191690831515021790555060019150610243565b600091505b5095945050505050565b600080600080600080600080600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a72305820922dd7ed3f5adebc22545c856e9db801298e582cd185657e884efc5459efd6430029",
-  "sourceMap": "28:1949:0:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "28:1949:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1550:218;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;956:586;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;421:527;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1550:218;1616:4;1633:25;1704:18;1716:5;1704:11;:18::i;:::-;1669:53;;;;;;;;;;;;;;;;;;;;;;;;1740:20;1733:27;;1550:218;;;;:::o;956:586::-;1073:4;1149:26;1098:27;1119:5;1098:20;:27::i;:::-;1097:28;1094:441;;;1178:15;:22;1194:5;1178:22;;;;;;;;;;;;;;;;;1149:51;;1233:7;1214:9;:16;;:26;;;;;;;1272:6;1254:9;:15;;:24;;;;;;;1310:6;1292:9;:15;;:24;;;;;;;1354:12;1330:9;:21;;:36;;;;1407:15;1380:9;:24;;:42;;;;1462:4;1436:9;:23;;;:30;;;;;;;;;;;;;;;;;;1489:4;1482:11;;;;1094:441;1527:5;1520:12;;956:586;;;;;;;;;:::o;421:527::-;478:7;486;494;502;510;519:4;745:26;774:15;:22;790:5;774:22;;;;;;;;;;;;;;;;;745:51;;815:9;:16;;;833:9;:15;;;850:9;:15;;;867:9;:21;;;890:9;:24;;;916:9;:23;;;;;;;;;;;;807:133;;;;;;;;;;;;421:527;;;;;;;;:::o",
+  "bytecode": "0x6060604052341561000f57600080fd5b6102e18061001e6000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063618e6ce61461005c5780637a1a59561461009b578063b10d6b411461010a575b600080fd5b341561006757600080fd5b610081600480803560001916906020019091905050610184565b604051808215151515815260200191505060405180910390f35b34156100a657600080fd5b6100f06004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506101b1565b604051808215151515815260200191505060405180910390f35b341561011557600080fd5b61012f60048080356000191690602001909190505061024d565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806101908361024d565b90919293945090919293509091925090915090508091505080915050919050565b6000806101bd87610184565b151561023e576000808860001916600019168152602001908152602001600020905085816000018160001916905550848160010181600019169055508381600201816000191690555082816003018190555042816004018190555060018160050160006101000a81548160ff02191690831515021790555060019150610243565b600091505b5095945050505050565b600080600080600080600080600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a723058209ddbe9cfa9fad691c57c2c0be215c7aa6006c639cfd458b64358028a8d9258820029",
+  "deployedBytecode": "0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063618e6ce61461005c5780637a1a59561461009b578063b10d6b411461010a575b600080fd5b341561006757600080fd5b610081600480803560001916906020019091905050610184565b604051808215151515815260200191505060405180910390f35b34156100a657600080fd5b6100f06004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506101b1565b604051808215151515815260200191505060405180910390f35b341561011557600080fd5b61012f60048080356000191690602001909190505061024d565b6040518087600019166000191681526020018660001916600019168152602001856000191660001916815260200184815260200183815260200182151515158152602001965050505050505060405180910390f35b6000806101908361024d565b90919293945090919293509091925090915090508091505080915050919050565b6000806101bd87610184565b151561023e576000808860001916600019168152602001908152602001600020905085816000018160001916905550848160010181600019169055508381600201816000191690555082816003018190555042816004018190555060018160050160006101000a81548160ff02191690831515021790555060019150610243565b600091505b5095945050505050565b600080600080600080600080600089600019166000191681526020019081526020016000209050806000015481600101548260020154836003015484600401548560050160009054906101000a900460ff1696509650965096509650965050919395509193955600a165627a7a723058209ddbe9cfa9fad691c57c2c0be215c7aa6006c639cfd458b64358028a8d9258820029",
+  "sourceMap": "28:1949:3:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "28:1949:3:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1550:218;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;956:586;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;421:527;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1550:218;1616:4;1633:25;1704:18;1716:5;1704:11;:18::i;:::-;1669:53;;;;;;;;;;;;;;;;;;;;;;;;1740:20;1733:27;;1550:218;;;;:::o;956:586::-;1073:4;1149:26;1098:27;1119:5;1098:20;:27::i;:::-;1097:28;1094:441;;;1178:15;:22;1194:5;1178:22;;;;;;;;;;;;;;;;;1149:51;;1233:7;1214:9;:16;;:26;;;;;;;1272:6;1254:9;:15;;:24;;;;;;;1310:6;1292:9;:15;;:24;;;;;;;1354:12;1330:9;:21;;:36;;;;1407:15;1380:9;:24;;:42;;;;1462:4;1436:9;:23;;;:30;;;;;;;;;;;;;;;;;;1489:4;1482:11;;;;1094:441;1527:5;1520:12;;956:586;;;;;;;;;:::o;421:527::-;478:7;486;494;502;510;519:4;745:26;774:15;:22;790:5;774:22;;;;;;;;;;;;;;;;;745:51;;815:9;:16;;;833:9;:15;;;850:9;:15;;;867:9;:21;;;890:9;:24;;;916:9;:23;;;;;;;;;;;;807:133;;;;;;;;;;;;421:527;;;;;;;;:::o",
   "source": "pragma solidity ^0.4.18;\r\n\r\ncontract DocAuth {\r\n   //This is where we keep all the contracts\r\n    mapping(bytes32 => Document) private documentLibrary;\r\n\r\n    /// Function gets an entry from the document library. Returns the metadata of the document.\r\n    /// Will always return a Document object, even when the document doesn't exist.\r\n    /// Check the property \"isInitialized\" to confirm it's not an empty value.\r\n    function getDocument(bytes32 _hash) public view returns (bytes32,bytes32,bytes32,uint256,uint256, bool) {\r\n        //todo: teruggeven van struct is blijkbaar niet goed. Hervormen naar \"losse variabelen\".\r\n        //https://ethereum.stackexchange.com/questions/3609/returning-a-struct-and-reading-via-web3/3614#3614\r\n        Document storage _document = documentLibrary[_hash];\r\n        return (_document.author, _document.title, _document.email, _document.dateWritten, _document.dateRegistered, _document.isInitialized);\r\n    }\r\n\r\n    function register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten) public returns (bool)\r\n    {\r\n       if(!isDocumentRegistered(_hash))\r\n       {\r\n           Document storage _document = documentLibrary[_hash];\r\n           _document.author = _author;\r\n           _document.title = _title;\r\n           _document.email = _email;\r\n           _document.dateWritten = _dateWritten;\r\n           _document.dateRegistered = block.timestamp;\r\n           _document.isInitialized = true;\r\n\r\n           return true;\r\n       }\r\n       else { return false; }\r\n    }\r\n\r\n    function isDocumentRegistered(bytes32 _hash) public view returns (bool) {\r\n        bool _storedIsInitialized;\r\n        (, , , , , _storedIsInitialized) = getDocument(_hash);\r\n        return _storedIsInitialized;\r\n    }\r\n\r\n    struct Document {\r\n        bytes32  author;\r\n        bytes32  title;\r\n        bytes32  email;\r\n        uint256  dateWritten;\r\n        uint256  dateRegistered;\r\n        bool  isInitialized;\r\n    }\r\n\r\n }\r\n",
-  "sourcePath": "C:\\BDA\\T1\\HowestBDAGroep1-master\\truffle\\contracts\\DocAuth.sol",
+  "sourcePath": "c:\\Blockchain\\GitHub\\HowestBDAGroep1\\truffle\\contracts\\DocAuth_noCMC.sol",
   "ast": {
-    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuth.sol",
+    "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuth_noCMC.sol",
     "exportedSymbols": {
       "DocAuth": [
-        147
+        393
       ]
     },
-    "id": 148,
+    "id": 394,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 247,
         "literals": [
           "solidity",
           "^",
@@ -120,7 +120,7 @@
           ".18"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -128,53 +128,53 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 147,
+        "id": 393,
         "linearizedBaseContracts": [
-          147
+          393
         ],
         "name": "DocAuth",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 5,
+            "id": 251,
             "name": "documentLibrary",
             "nodeType": "VariableDeclaration",
-            "scope": 147,
-            "src": "98:52:0",
+            "scope": 393,
+            "src": "98:52:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
               "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
             },
             "typeName": {
-              "id": 4,
+              "id": 250,
               "keyType": {
-                "id": 2,
+                "id": 248,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "106:7:0",
+                "src": "106:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "98:28:0",
+              "src": "98:28:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
                 "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 3,
+                "id": 249,
                 "name": "Document",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 146,
-                "src": "117:8:0",
+                "referencedDeclaration": 392,
+                "src": "117:8:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                  "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                   "typeString": "struct DocAuth.Document storage pointer"
                 }
               }
@@ -184,37 +184,37 @@
           },
           {
             "body": {
-              "id": 42,
+              "id": 288,
               "nodeType": "Block",
-              "src": "525:423:0",
+              "src": "525:423:3",
               "statements": [
                 {
                   "assignments": [
-                    23
+                    269
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 23,
+                      "id": 269,
                       "name": "_document",
                       "nodeType": "VariableDeclaration",
-                      "scope": 43,
-                      "src": "745:26:0",
+                      "scope": 289,
+                      "src": "745:26:3",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                        "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                         "typeString": "struct DocAuth.Document storage pointer"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 22,
+                        "id": 268,
                         "name": "Document",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 146,
-                        "src": "745:8:0",
+                        "referencedDeclaration": 392,
+                        "src": "745:8:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                          "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                           "typeString": "struct DocAuth.Document storage pointer"
                         }
                       },
@@ -222,31 +222,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 27,
+                  "id": 273,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 24,
+                      "id": 270,
                       "name": "documentLibrary",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5,
-                      "src": "774:15:0",
+                      "referencedDeclaration": 251,
+                      "src": "774:15:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+                        "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
                         "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
                       }
                     },
-                    "id": 26,
+                    "id": 272,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 25,
+                      "id": 271,
                       "name": "_hash",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7,
-                      "src": "790:5:0",
+                      "referencedDeclaration": 253,
+                      "src": "790:5:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -257,14 +257,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "774:22:0",
+                    "src": "774:22:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Document_$146_storage",
+                      "typeIdentifier": "t_struct$_Document_$392_storage",
                       "typeString": "struct DocAuth.Document storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "745:51:0"
+                  "src": "745:51:3"
                 },
                 {
                   "expression": {
@@ -274,26 +274,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 28,
+                          "id": 274,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "815:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "815:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 29,
+                        "id": 275,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "author",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 135,
-                        "src": "815:16:0",
+                        "referencedDeclaration": 381,
+                        "src": "815:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -303,26 +303,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 30,
+                          "id": 276,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "833:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "833:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 31,
+                        "id": 277,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "title",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 137,
-                        "src": "833:15:0",
+                        "referencedDeclaration": 383,
+                        "src": "833:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -332,26 +332,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 32,
+                          "id": 278,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "850:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "850:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 33,
+                        "id": 279,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "email",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 139,
-                        "src": "850:15:0",
+                        "referencedDeclaration": 385,
+                        "src": "850:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -361,26 +361,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 34,
+                          "id": 280,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "867:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "867:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 35,
+                        "id": 281,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "dateWritten",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 141,
-                        "src": "867:21:0",
+                        "referencedDeclaration": 387,
+                        "src": "867:21:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -390,26 +390,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 36,
+                          "id": 282,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "890:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "890:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 37,
+                        "id": 283,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "dateRegistered",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 143,
-                        "src": "890:24:0",
+                        "referencedDeclaration": 389,
+                        "src": "890:24:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -419,53 +419,53 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 38,
+                          "id": 284,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "916:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "916:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 39,
+                        "id": 285,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isInitialized",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 145,
-                        "src": "916:23:0",
+                        "referencedDeclaration": 391,
+                        "src": "916:23:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       }
                     ],
-                    "id": 40,
+                    "id": 286,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "814:126:0",
+                    "src": "814:126:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_uint256_$_t_bool_$",
                       "typeString": "tuple(bytes32,bytes32,bytes32,uint256,uint256,bool)"
                     }
                   },
-                  "functionReturnParameters": 21,
-                  "id": 41,
+                  "functionReturnParameters": 267,
+                  "id": 287,
                   "nodeType": "Return",
-                  "src": "807:133:0"
+                  "src": "807:133:3"
                 }
               ]
             },
-            "id": 43,
+            "id": 289,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -473,16 +473,16 @@
             "name": "getDocument",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8,
+              "id": 254,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7,
+                  "id": 253,
                   "name": "_hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "442:13:0",
+                  "scope": 289,
+                  "src": "442:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -490,10 +490,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6,
+                    "id": 252,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "442:7:0",
+                    "src": "442:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -503,20 +503,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "441:15:0"
+              "src": "441:15:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 21,
+              "id": 267,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10,
+                  "id": 256,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "478:7:0",
+                  "scope": 289,
+                  "src": "478:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -524,10 +524,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 9,
+                    "id": 255,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "478:7:0",
+                    "src": "478:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -538,11 +538,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12,
+                  "id": 258,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "486:7:0",
+                  "scope": 289,
+                  "src": "486:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -550,10 +550,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 11,
+                    "id": 257,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "486:7:0",
+                    "src": "486:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -564,11 +564,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14,
+                  "id": 260,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "494:7:0",
+                  "scope": 289,
+                  "src": "494:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -576,10 +576,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 13,
+                    "id": 259,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "494:7:0",
+                    "src": "494:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -590,11 +590,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 16,
+                  "id": 262,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "502:7:0",
+                  "scope": 289,
+                  "src": "502:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -602,10 +602,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 15,
+                    "id": 261,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "502:7:0",
+                    "src": "502:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -616,11 +616,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 18,
+                  "id": 264,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "510:7:0",
+                  "scope": 289,
+                  "src": "510:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -628,10 +628,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 17,
+                    "id": 263,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "510:7:0",
+                    "src": "510:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -642,11 +642,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 20,
+                  "id": 266,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "519:4:0",
+                  "scope": 289,
+                  "src": "519:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -654,10 +654,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 19,
+                    "id": 265,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "519:4:0",
+                    "src": "519:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -667,24 +667,24 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "477:47:0"
+              "src": "477:47:3"
             },
-            "scope": 147,
-            "src": "421:527:0",
+            "scope": 393,
+            "src": "421:527:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 112,
+              "id": 358,
               "nodeType": "Block",
-              "src": "1084:458:0",
+              "src": "1084:458:3",
               "statements": [
                 {
                   "condition": {
                     "argumentTypes": null,
-                    "id": 61,
+                    "id": 307,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -692,18 +692,18 @@
                     "nodeType": "UnaryOperation",
                     "operator": "!",
                     "prefix": true,
-                    "src": "1097:28:0",
+                    "src": "1097:28:3",
                     "subExpression": {
                       "argumentTypes": null,
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 59,
+                          "id": 305,
                           "name": "_hash",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 45,
-                          "src": "1119:5:0",
+                          "referencedDeclaration": 291,
+                          "src": "1119:5:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -717,18 +717,18 @@
                             "typeString": "bytes32"
                           }
                         ],
-                        "id": 58,
+                        "id": 304,
                         "name": "isDocumentRegistered",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133,
-                        "src": "1098:20:0",
+                        "referencedDeclaration": 379,
+                        "src": "1098:20:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_bool_$",
                           "typeString": "function (bytes32) view returns (bool)"
                         }
                       },
-                      "id": 60,
+                      "id": 306,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -736,7 +736,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1098:27:0",
+                      "src": "1098:27:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -748,22 +748,22 @@
                     }
                   },
                   "falseBody": {
-                    "id": 110,
+                    "id": 356,
                     "nodeType": "Block",
-                    "src": "1518:17:0",
+                    "src": "1518:17:3",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "66616c7365",
-                          "id": 108,
+                          "id": 354,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1527:5:0",
+                          "src": "1527:5:3",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -771,48 +771,48 @@
                           },
                           "value": "false"
                         },
-                        "functionReturnParameters": 57,
-                        "id": 109,
+                        "functionReturnParameters": 303,
+                        "id": 355,
                         "nodeType": "Return",
-                        "src": "1520:12:0"
+                        "src": "1520:12:3"
                       }
                     ]
                   },
-                  "id": 111,
+                  "id": 357,
                   "nodeType": "IfStatement",
-                  "src": "1094:441:0",
+                  "src": "1094:441:3",
                   "trueBody": {
-                    "id": 107,
+                    "id": 353,
                     "nodeType": "Block",
-                    "src": "1135:369:0",
+                    "src": "1135:369:3",
                     "statements": [
                       {
                         "assignments": [
-                          63
+                          309
                         ],
                         "declarations": [
                           {
                             "constant": false,
-                            "id": 63,
+                            "id": 309,
                             "name": "_document",
                             "nodeType": "VariableDeclaration",
-                            "scope": 113,
-                            "src": "1149:26:0",
+                            "scope": 359,
+                            "src": "1149:26:3",
                             "stateVariable": false,
                             "storageLocation": "storage",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                              "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                               "typeString": "struct DocAuth.Document storage pointer"
                             },
                             "typeName": {
                               "contractScope": null,
-                              "id": 62,
+                              "id": 308,
                               "name": "Document",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 146,
-                              "src": "1149:8:0",
+                              "referencedDeclaration": 392,
+                              "src": "1149:8:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
@@ -820,31 +820,31 @@
                             "visibility": "internal"
                           }
                         ],
-                        "id": 67,
+                        "id": 313,
                         "initialValue": {
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 64,
+                            "id": 310,
                             "name": "documentLibrary",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5,
-                            "src": "1178:15:0",
+                            "referencedDeclaration": 251,
+                            "src": "1178:15:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
                               "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
                             }
                           },
-                          "id": 66,
+                          "id": 312,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 65,
+                            "id": 311,
                             "name": "_hash",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 45,
-                            "src": "1194:5:0",
+                            "referencedDeclaration": 291,
+                            "src": "1194:5:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -855,19 +855,19 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1178:22:0",
+                          "src": "1178:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage",
+                            "typeIdentifier": "t_struct$_Document_$392_storage",
                             "typeString": "struct DocAuth.Document storage ref"
                           }
                         },
                         "nodeType": "VariableDeclarationStatement",
-                        "src": "1149:51:0"
+                        "src": "1149:51:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 72,
+                          "id": 318,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -876,26 +876,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 68,
+                              "id": 314,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1214:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1214:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 70,
+                            "id": 316,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "author",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 135,
-                            "src": "1214:16:0",
+                            "referencedDeclaration": 381,
+                            "src": "1214:16:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -905,31 +905,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 71,
+                            "id": 317,
                             "name": "_author",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 47,
-                            "src": "1233:7:0",
+                            "referencedDeclaration": 293,
+                            "src": "1233:7:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
                             }
                           },
-                          "src": "1214:26:0",
+                          "src": "1214:26:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
                           }
                         },
-                        "id": 73,
+                        "id": 319,
                         "nodeType": "ExpressionStatement",
-                        "src": "1214:26:0"
+                        "src": "1214:26:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 78,
+                          "id": 324,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -938,26 +938,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 74,
+                              "id": 320,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1254:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1254:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 76,
+                            "id": 322,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "title",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 137,
-                            "src": "1254:15:0",
+                            "referencedDeclaration": 383,
+                            "src": "1254:15:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -967,31 +967,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 77,
+                            "id": 323,
                             "name": "_title",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 49,
-                            "src": "1272:6:0",
+                            "referencedDeclaration": 295,
+                            "src": "1272:6:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
                             }
                           },
-                          "src": "1254:24:0",
+                          "src": "1254:24:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
                           }
                         },
-                        "id": 79,
+                        "id": 325,
                         "nodeType": "ExpressionStatement",
-                        "src": "1254:24:0"
+                        "src": "1254:24:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 84,
+                          "id": 330,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1000,26 +1000,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 80,
+                              "id": 326,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1292:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1292:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 82,
+                            "id": 328,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "email",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 139,
-                            "src": "1292:15:0",
+                            "referencedDeclaration": 385,
+                            "src": "1292:15:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -1029,31 +1029,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 83,
+                            "id": 329,
                             "name": "_email",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 51,
-                            "src": "1310:6:0",
+                            "referencedDeclaration": 297,
+                            "src": "1310:6:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
                             }
                           },
-                          "src": "1292:24:0",
+                          "src": "1292:24:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
                           }
                         },
-                        "id": 85,
+                        "id": 331,
                         "nodeType": "ExpressionStatement",
-                        "src": "1292:24:0"
+                        "src": "1292:24:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 90,
+                          "id": 336,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1062,26 +1062,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 86,
+                              "id": 332,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1330:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1330:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 88,
+                            "id": 334,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "dateWritten",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 141,
-                            "src": "1330:21:0",
+                            "referencedDeclaration": 387,
+                            "src": "1330:21:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1091,31 +1091,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 89,
+                            "id": 335,
                             "name": "_dateWritten",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 53,
-                            "src": "1354:12:0",
+                            "referencedDeclaration": 299,
+                            "src": "1354:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1330:36:0",
+                          "src": "1330:36:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 91,
+                        "id": 337,
                         "nodeType": "ExpressionStatement",
-                        "src": "1330:36:0"
+                        "src": "1330:36:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 97,
+                          "id": 343,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1124,26 +1124,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 92,
+                              "id": 338,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1380:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1380:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 94,
+                            "id": 340,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "dateRegistered",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 143,
-                            "src": "1380:24:0",
+                            "referencedDeclaration": 389,
+                            "src": "1380:24:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1155,18 +1155,18 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 95,
+                              "id": 341,
                               "name": "block",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 151,
-                              "src": "1407:5:0",
+                              "referencedDeclaration": 792,
+                              "src": "1407:5:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_block",
                                 "typeString": "block"
                               }
                             },
-                            "id": 96,
+                            "id": 342,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -1174,26 +1174,26 @@
                             "memberName": "timestamp",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1407:15:0",
+                            "src": "1407:15:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1380:42:0",
+                          "src": "1380:42:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 98,
+                        "id": 344,
                         "nodeType": "ExpressionStatement",
-                        "src": "1380:42:0"
+                        "src": "1380:42:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 103,
+                          "id": 349,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -1202,26 +1202,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 99,
+                              "id": 345,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1436:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1436:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 101,
+                            "id": 347,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "isInitialized",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 145,
-                            "src": "1436:23:0",
+                            "referencedDeclaration": 391,
+                            "src": "1436:23:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
@@ -1232,14 +1232,14 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "74727565",
-                            "id": 102,
+                            "id": 348,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "bool",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "1462:4:0",
+                            "src": "1462:4:3",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
@@ -1247,28 +1247,28 @@
                             },
                             "value": "true"
                           },
-                          "src": "1436:30:0",
+                          "src": "1436:30:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "id": 104,
+                        "id": 350,
                         "nodeType": "ExpressionStatement",
-                        "src": "1436:30:0"
+                        "src": "1436:30:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 105,
+                          "id": 351,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1489:4:0",
+                          "src": "1489:4:3",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -1276,17 +1276,17 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 57,
-                        "id": 106,
+                        "functionReturnParameters": 303,
+                        "id": 352,
                         "nodeType": "Return",
-                        "src": "1482:11:0"
+                        "src": "1482:11:3"
                       }
                     ]
                   }
                 }
               ]
             },
-            "id": 113,
+            "id": 359,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1294,16 +1294,16 @@
             "name": "register",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 54,
+              "id": 300,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 45,
+                  "id": 291,
                   "name": "_hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "974:13:0",
+                  "scope": 359,
+                  "src": "974:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1311,10 +1311,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 44,
+                    "id": 290,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "974:7:0",
+                    "src": "974:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1325,11 +1325,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 47,
+                  "id": 293,
                   "name": "_author",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "989:15:0",
+                  "scope": 359,
+                  "src": "989:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1337,10 +1337,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 46,
+                    "id": 292,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "989:7:0",
+                    "src": "989:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1351,11 +1351,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 49,
+                  "id": 295,
                   "name": "_title",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1005:14:0",
+                  "scope": 359,
+                  "src": "1005:14:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1363,10 +1363,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 48,
+                    "id": 294,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1005:7:0",
+                    "src": "1005:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1377,11 +1377,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 51,
+                  "id": 297,
                   "name": "_email",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1020:14:0",
+                  "scope": 359,
+                  "src": "1020:14:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1389,10 +1389,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 50,
+                    "id": 296,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1020:7:0",
+                    "src": "1020:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1403,11 +1403,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 53,
+                  "id": 299,
                   "name": "_dateWritten",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1035:20:0",
+                  "scope": 359,
+                  "src": "1035:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1415,10 +1415,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 52,
+                    "id": 298,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1035:7:0",
+                    "src": "1035:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1428,20 +1428,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "973:83:0"
+              "src": "973:83:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 57,
+              "id": 303,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 56,
+                  "id": 302,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1073:4:0",
+                  "scope": 359,
+                  "src": "1073:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1449,10 +1449,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 55,
+                    "id": 301,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1073:4:0",
+                    "src": "1073:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1462,30 +1462,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1072:6:0"
+              "src": "1072:6:3"
             },
-            "scope": 147,
-            "src": "956:586:0",
+            "scope": 393,
+            "src": "956:586:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 132,
+              "id": 378,
               "nodeType": "Block",
-              "src": "1622:146:0",
+              "src": "1622:146:3",
               "statements": [
                 {
                   "assignments": [],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 121,
+                      "id": 367,
                       "name": "_storedIsInitialized",
                       "nodeType": "VariableDeclaration",
-                      "scope": 133,
-                      "src": "1633:25:0",
+                      "scope": 379,
+                      "src": "1633:25:3",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1493,10 +1493,10 @@
                         "typeString": "bool"
                       },
                       "typeName": {
-                        "id": 120,
+                        "id": 366,
                         "name": "bool",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1633:4:0",
+                        "src": "1633:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -1506,15 +1506,15 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 122,
+                  "id": 368,
                   "initialValue": null,
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1633:25:0"
+                  "src": "1633:25:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 128,
+                    "id": 374,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1529,26 +1529,26 @@
                         null,
                         {
                           "argumentTypes": null,
-                          "id": 123,
+                          "id": 369,
                           "name": "_storedIsInitialized",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 121,
-                          "src": "1680:20:0",
+                          "referencedDeclaration": 367,
+                          "src": "1680:20:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         }
                       ],
-                      "id": 124,
+                      "id": 370,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "TupleExpression",
-                      "src": "1669:32:0",
+                      "src": "1669:32:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_tuple$__$__$__$__$__$_t_bool_$",
                         "typeString": "tuple(,,,,,bool)"
@@ -1561,12 +1561,12 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 126,
+                          "id": 372,
                           "name": "_hash",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 115,
-                          "src": "1716:5:0",
+                          "referencedDeclaration": 361,
+                          "src": "1716:5:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -1580,18 +1580,18 @@
                             "typeString": "bytes32"
                           }
                         ],
-                        "id": 125,
+                        "id": 371,
                         "name": "getDocument",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 43,
-                        "src": "1704:11:0",
+                        "referencedDeclaration": 289,
+                        "src": "1704:11:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_uint256_$_t_bool_$",
                           "typeString": "function (bytes32) view returns (bytes32,bytes32,bytes32,uint256,uint256,bool)"
                         }
                       },
-                      "id": 127,
+                      "id": 373,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -1599,44 +1599,44 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1704:18:0",
+                      "src": "1704:18:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_uint256_$_t_bool_$",
                         "typeString": "tuple(bytes32,bytes32,bytes32,uint256,uint256,bool)"
                       }
                     },
-                    "src": "1669:53:0",
+                    "src": "1669:53:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 129,
+                  "id": 375,
                   "nodeType": "ExpressionStatement",
-                  "src": "1669:53:0"
+                  "src": "1669:53:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 130,
+                    "id": 376,
                     "name": "_storedIsInitialized",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 121,
-                    "src": "1740:20:0",
+                    "referencedDeclaration": 367,
+                    "src": "1740:20:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 119,
-                  "id": 131,
+                  "functionReturnParameters": 365,
+                  "id": 377,
                   "nodeType": "Return",
-                  "src": "1733:27:0"
+                  "src": "1733:27:3"
                 }
               ]
             },
-            "id": 133,
+            "id": 379,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1644,16 +1644,16 @@
             "name": "isDocumentRegistered",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 116,
+              "id": 362,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 115,
+                  "id": 361,
                   "name": "_hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 133,
-                  "src": "1580:13:0",
+                  "scope": 379,
+                  "src": "1580:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1661,10 +1661,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 114,
+                    "id": 360,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1580:7:0",
+                    "src": "1580:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1674,20 +1674,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1579:15:0"
+              "src": "1579:15:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 119,
+              "id": 365,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 118,
+                  "id": 364,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 133,
-                  "src": "1616:4:0",
+                  "scope": 379,
+                  "src": "1616:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1695,10 +1695,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 117,
+                    "id": 363,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1616:4:0",
+                    "src": "1616:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1708,25 +1708,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1615:6:0"
+              "src": "1615:6:3"
             },
-            "scope": 147,
-            "src": "1550:218:0",
+            "scope": 393,
+            "src": "1550:218:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "canonicalName": "DocAuth.Document",
-            "id": 146,
+            "id": 392,
             "members": [
               {
                 "constant": false,
-                "id": 135,
+                "id": 381,
                 "name": "author",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1803:15:0",
+                "scope": 392,
+                "src": "1803:15:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1734,10 +1734,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 134,
+                  "id": 380,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1803:7:0",
+                  "src": "1803:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -1748,11 +1748,11 @@
               },
               {
                 "constant": false,
-                "id": 137,
+                "id": 383,
                 "name": "title",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1829:14:0",
+                "scope": 392,
+                "src": "1829:14:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1760,10 +1760,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 136,
+                  "id": 382,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1829:7:0",
+                  "src": "1829:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -1774,11 +1774,11 @@
               },
               {
                 "constant": false,
-                "id": 139,
+                "id": 385,
                 "name": "email",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1854:14:0",
+                "scope": 392,
+                "src": "1854:14:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1786,10 +1786,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 138,
+                  "id": 384,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1854:7:0",
+                  "src": "1854:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -1800,11 +1800,11 @@
               },
               {
                 "constant": false,
-                "id": 141,
+                "id": 387,
                 "name": "dateWritten",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1879:20:0",
+                "scope": 392,
+                "src": "1879:20:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1812,10 +1812,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 140,
+                  "id": 386,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1879:7:0",
+                  "src": "1879:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1826,11 +1826,11 @@
               },
               {
                 "constant": false,
-                "id": 143,
+                "id": 389,
                 "name": "dateRegistered",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1910:23:0",
+                "scope": 392,
+                "src": "1910:23:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1838,10 +1838,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 142,
+                  "id": 388,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1910:7:0",
+                  "src": "1910:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -1852,11 +1852,11 @@
               },
               {
                 "constant": false,
-                "id": 145,
+                "id": 391,
                 "name": "isInitialized",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1944:19:0",
+                "scope": 392,
+                "src": "1944:19:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -1864,10 +1864,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 144,
+                  "id": 390,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1944:4:0",
+                  "src": "1944:4:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -1879,29 +1879,29 @@
             ],
             "name": "Document",
             "nodeType": "StructDefinition",
-            "scope": 147,
-            "src": "1776:195:0",
+            "scope": 393,
+            "src": "1776:195:3",
             "visibility": "public"
           }
         ],
-        "scope": 148,
-        "src": "28:1949:0"
+        "scope": 394,
+        "src": "28:1949:3"
       }
     ],
-    "src": "0:1979:0"
+    "src": "0:1979:3"
   },
   "legacyAST": {
-    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuth.sol",
+    "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuth_noCMC.sol",
     "exportedSymbols": {
       "DocAuth": [
-        147
+        393
       ]
     },
-    "id": 148,
+    "id": 394,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 247,
         "literals": [
           "solidity",
           "^",
@@ -1909,7 +1909,7 @@
           ".18"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:0"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -1917,53 +1917,53 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 147,
+        "id": 393,
         "linearizedBaseContracts": [
-          147
+          393
         ],
         "name": "DocAuth",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 5,
+            "id": 251,
             "name": "documentLibrary",
             "nodeType": "VariableDeclaration",
-            "scope": 147,
-            "src": "98:52:0",
+            "scope": 393,
+            "src": "98:52:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
               "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
             },
             "typeName": {
-              "id": 4,
+              "id": 250,
               "keyType": {
-                "id": 2,
+                "id": 248,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "106:7:0",
+                "src": "106:7:3",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "98:28:0",
+              "src": "98:28:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
                 "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 3,
+                "id": 249,
                 "name": "Document",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 146,
-                "src": "117:8:0",
+                "referencedDeclaration": 392,
+                "src": "117:8:3",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                  "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                   "typeString": "struct DocAuth.Document storage pointer"
                 }
               }
@@ -1973,37 +1973,37 @@
           },
           {
             "body": {
-              "id": 42,
+              "id": 288,
               "nodeType": "Block",
-              "src": "525:423:0",
+              "src": "525:423:3",
               "statements": [
                 {
                   "assignments": [
-                    23
+                    269
                   ],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 23,
+                      "id": 269,
                       "name": "_document",
                       "nodeType": "VariableDeclaration",
-                      "scope": 43,
-                      "src": "745:26:0",
+                      "scope": 289,
+                      "src": "745:26:3",
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                        "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                         "typeString": "struct DocAuth.Document storage pointer"
                       },
                       "typeName": {
                         "contractScope": null,
-                        "id": 22,
+                        "id": 268,
                         "name": "Document",
                         "nodeType": "UserDefinedTypeName",
-                        "referencedDeclaration": 146,
-                        "src": "745:8:0",
+                        "referencedDeclaration": 392,
+                        "src": "745:8:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                          "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                           "typeString": "struct DocAuth.Document storage pointer"
                         }
                       },
@@ -2011,31 +2011,31 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 27,
+                  "id": 273,
                   "initialValue": {
                     "argumentTypes": null,
                     "baseExpression": {
                       "argumentTypes": null,
-                      "id": 24,
+                      "id": 270,
                       "name": "documentLibrary",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 5,
-                      "src": "774:15:0",
+                      "referencedDeclaration": 251,
+                      "src": "774:15:3",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+                        "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
                         "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
                       }
                     },
-                    "id": 26,
+                    "id": 272,
                     "indexExpression": {
                       "argumentTypes": null,
-                      "id": 25,
+                      "id": 271,
                       "name": "_hash",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 7,
-                      "src": "790:5:0",
+                      "referencedDeclaration": 253,
+                      "src": "790:5:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
                         "typeString": "bytes32"
@@ -2046,14 +2046,14 @@
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "IndexAccess",
-                    "src": "774:22:0",
+                    "src": "774:22:3",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_Document_$146_storage",
+                      "typeIdentifier": "t_struct$_Document_$392_storage",
                       "typeString": "struct DocAuth.Document storage ref"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "745:51:0"
+                  "src": "745:51:3"
                 },
                 {
                   "expression": {
@@ -2063,26 +2063,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 28,
+                          "id": 274,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "815:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "815:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 29,
+                        "id": 275,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "author",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 135,
-                        "src": "815:16:0",
+                        "referencedDeclaration": 381,
+                        "src": "815:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -2092,26 +2092,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 30,
+                          "id": 276,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "833:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "833:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 31,
+                        "id": 277,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "title",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 137,
-                        "src": "833:15:0",
+                        "referencedDeclaration": 383,
+                        "src": "833:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -2121,26 +2121,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 32,
+                          "id": 278,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "850:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "850:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 33,
+                        "id": 279,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "email",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 139,
-                        "src": "850:15:0",
+                        "referencedDeclaration": 385,
+                        "src": "850:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
                           "typeString": "bytes32"
@@ -2150,26 +2150,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 34,
+                          "id": 280,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "867:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "867:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 35,
+                        "id": 281,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "dateWritten",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 141,
-                        "src": "867:21:0",
+                        "referencedDeclaration": 387,
+                        "src": "867:21:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2179,26 +2179,26 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 36,
+                          "id": 282,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "890:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "890:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 37,
+                        "id": 283,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "dateRegistered",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 143,
-                        "src": "890:24:0",
+                        "referencedDeclaration": 389,
+                        "src": "890:24:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -2208,53 +2208,53 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 38,
+                          "id": 284,
                           "name": "_document",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 23,
-                          "src": "916:9:0",
+                          "referencedDeclaration": 269,
+                          "src": "916:9:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                            "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                             "typeString": "struct DocAuth.Document storage pointer"
                           }
                         },
-                        "id": 39,
+                        "id": 285,
                         "isConstant": false,
                         "isLValue": true,
                         "isPure": false,
                         "lValueRequested": false,
                         "memberName": "isInitialized",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 145,
-                        "src": "916:23:0",
+                        "referencedDeclaration": 391,
+                        "src": "916:23:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
                         }
                       }
                     ],
-                    "id": 40,
+                    "id": 286,
                     "isConstant": false,
                     "isInlineArray": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "nodeType": "TupleExpression",
-                    "src": "814:126:0",
+                    "src": "814:126:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_uint256_$_t_bool_$",
                       "typeString": "tuple(bytes32,bytes32,bytes32,uint256,uint256,bool)"
                     }
                   },
-                  "functionReturnParameters": 21,
-                  "id": 41,
+                  "functionReturnParameters": 267,
+                  "id": 287,
                   "nodeType": "Return",
-                  "src": "807:133:0"
+                  "src": "807:133:3"
                 }
               ]
             },
-            "id": 43,
+            "id": 289,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2262,16 +2262,16 @@
             "name": "getDocument",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 8,
+              "id": 254,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 7,
+                  "id": 253,
                   "name": "_hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "442:13:0",
+                  "scope": 289,
+                  "src": "442:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2279,10 +2279,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 6,
+                    "id": 252,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "442:7:0",
+                    "src": "442:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2292,20 +2292,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "441:15:0"
+              "src": "441:15:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 21,
+              "id": 267,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 10,
+                  "id": 256,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "478:7:0",
+                  "scope": 289,
+                  "src": "478:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2313,10 +2313,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 9,
+                    "id": 255,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "478:7:0",
+                    "src": "478:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2327,11 +2327,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 12,
+                  "id": 258,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "486:7:0",
+                  "scope": 289,
+                  "src": "486:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2339,10 +2339,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 11,
+                    "id": 257,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "486:7:0",
+                    "src": "486:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2353,11 +2353,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 14,
+                  "id": 260,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "494:7:0",
+                  "scope": 289,
+                  "src": "494:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2365,10 +2365,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 13,
+                    "id": 259,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "494:7:0",
+                    "src": "494:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2379,11 +2379,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 16,
+                  "id": 262,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "502:7:0",
+                  "scope": 289,
+                  "src": "502:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2391,10 +2391,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 15,
+                    "id": 261,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "502:7:0",
+                    "src": "502:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2405,11 +2405,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 18,
+                  "id": 264,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "510:7:0",
+                  "scope": 289,
+                  "src": "510:7:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2417,10 +2417,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 17,
+                    "id": 263,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "510:7:0",
+                    "src": "510:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2431,11 +2431,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 20,
+                  "id": 266,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 43,
-                  "src": "519:4:0",
+                  "scope": 289,
+                  "src": "519:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2443,10 +2443,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 19,
+                    "id": 265,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "519:4:0",
+                    "src": "519:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2456,24 +2456,24 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "477:47:0"
+              "src": "477:47:3"
             },
-            "scope": 147,
-            "src": "421:527:0",
+            "scope": 393,
+            "src": "421:527:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 112,
+              "id": 358,
               "nodeType": "Block",
-              "src": "1084:458:0",
+              "src": "1084:458:3",
               "statements": [
                 {
                   "condition": {
                     "argumentTypes": null,
-                    "id": 61,
+                    "id": 307,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -2481,18 +2481,18 @@
                     "nodeType": "UnaryOperation",
                     "operator": "!",
                     "prefix": true,
-                    "src": "1097:28:0",
+                    "src": "1097:28:3",
                     "subExpression": {
                       "argumentTypes": null,
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 59,
+                          "id": 305,
                           "name": "_hash",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 45,
-                          "src": "1119:5:0",
+                          "referencedDeclaration": 291,
+                          "src": "1119:5:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -2506,18 +2506,18 @@
                             "typeString": "bytes32"
                           }
                         ],
-                        "id": 58,
+                        "id": 304,
                         "name": "isDocumentRegistered",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 133,
-                        "src": "1098:20:0",
+                        "referencedDeclaration": 379,
+                        "src": "1098:20:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_bool_$",
                           "typeString": "function (bytes32) view returns (bool)"
                         }
                       },
-                      "id": 60,
+                      "id": 306,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -2525,7 +2525,7 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1098:27:0",
+                      "src": "1098:27:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bool",
                         "typeString": "bool"
@@ -2537,22 +2537,22 @@
                     }
                   },
                   "falseBody": {
-                    "id": 110,
+                    "id": 356,
                     "nodeType": "Block",
-                    "src": "1518:17:0",
+                    "src": "1518:17:3",
                     "statements": [
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "66616c7365",
-                          "id": 108,
+                          "id": 354,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1527:5:0",
+                          "src": "1527:5:3",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -2560,48 +2560,48 @@
                           },
                           "value": "false"
                         },
-                        "functionReturnParameters": 57,
-                        "id": 109,
+                        "functionReturnParameters": 303,
+                        "id": 355,
                         "nodeType": "Return",
-                        "src": "1520:12:0"
+                        "src": "1520:12:3"
                       }
                     ]
                   },
-                  "id": 111,
+                  "id": 357,
                   "nodeType": "IfStatement",
-                  "src": "1094:441:0",
+                  "src": "1094:441:3",
                   "trueBody": {
-                    "id": 107,
+                    "id": 353,
                     "nodeType": "Block",
-                    "src": "1135:369:0",
+                    "src": "1135:369:3",
                     "statements": [
                       {
                         "assignments": [
-                          63
+                          309
                         ],
                         "declarations": [
                           {
                             "constant": false,
-                            "id": 63,
+                            "id": 309,
                             "name": "_document",
                             "nodeType": "VariableDeclaration",
-                            "scope": 113,
-                            "src": "1149:26:0",
+                            "scope": 359,
+                            "src": "1149:26:3",
                             "stateVariable": false,
                             "storageLocation": "storage",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                              "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                               "typeString": "struct DocAuth.Document storage pointer"
                             },
                             "typeName": {
                               "contractScope": null,
-                              "id": 62,
+                              "id": 308,
                               "name": "Document",
                               "nodeType": "UserDefinedTypeName",
-                              "referencedDeclaration": 146,
-                              "src": "1149:8:0",
+                              "referencedDeclaration": 392,
+                              "src": "1149:8:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
@@ -2609,31 +2609,31 @@
                             "visibility": "internal"
                           }
                         ],
-                        "id": 67,
+                        "id": 313,
                         "initialValue": {
                           "argumentTypes": null,
                           "baseExpression": {
                             "argumentTypes": null,
-                            "id": 64,
+                            "id": 310,
                             "name": "documentLibrary",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 5,
-                            "src": "1178:15:0",
+                            "referencedDeclaration": 251,
+                            "src": "1178:15:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$146_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_Document_$392_storage_$",
                               "typeString": "mapping(bytes32 => struct DocAuth.Document storage ref)"
                             }
                           },
-                          "id": 66,
+                          "id": 312,
                           "indexExpression": {
                             "argumentTypes": null,
-                            "id": 65,
+                            "id": 311,
                             "name": "_hash",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 45,
-                            "src": "1194:5:0",
+                            "referencedDeclaration": 291,
+                            "src": "1194:5:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -2644,19 +2644,19 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1178:22:0",
+                          "src": "1178:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_Document_$146_storage",
+                            "typeIdentifier": "t_struct$_Document_$392_storage",
                             "typeString": "struct DocAuth.Document storage ref"
                           }
                         },
                         "nodeType": "VariableDeclarationStatement",
-                        "src": "1149:51:0"
+                        "src": "1149:51:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 72,
+                          "id": 318,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2665,26 +2665,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 68,
+                              "id": 314,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1214:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1214:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 70,
+                            "id": 316,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "author",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 135,
-                            "src": "1214:16:0",
+                            "referencedDeclaration": 381,
+                            "src": "1214:16:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -2694,31 +2694,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 71,
+                            "id": 317,
                             "name": "_author",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 47,
-                            "src": "1233:7:0",
+                            "referencedDeclaration": 293,
+                            "src": "1233:7:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
                             }
                           },
-                          "src": "1214:26:0",
+                          "src": "1214:26:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
                           }
                         },
-                        "id": 73,
+                        "id": 319,
                         "nodeType": "ExpressionStatement",
-                        "src": "1214:26:0"
+                        "src": "1214:26:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 78,
+                          "id": 324,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2727,26 +2727,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 74,
+                              "id": 320,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1254:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1254:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 76,
+                            "id": 322,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "title",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 137,
-                            "src": "1254:15:0",
+                            "referencedDeclaration": 383,
+                            "src": "1254:15:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -2756,31 +2756,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 77,
+                            "id": 323,
                             "name": "_title",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 49,
-                            "src": "1272:6:0",
+                            "referencedDeclaration": 295,
+                            "src": "1272:6:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
                             }
                           },
-                          "src": "1254:24:0",
+                          "src": "1254:24:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
                           }
                         },
-                        "id": 79,
+                        "id": 325,
                         "nodeType": "ExpressionStatement",
-                        "src": "1254:24:0"
+                        "src": "1254:24:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 84,
+                          "id": 330,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2789,26 +2789,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 80,
+                              "id": 326,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1292:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1292:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 82,
+                            "id": 328,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "email",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 139,
-                            "src": "1292:15:0",
+                            "referencedDeclaration": 385,
+                            "src": "1292:15:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
@@ -2818,31 +2818,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 83,
+                            "id": 329,
                             "name": "_email",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 51,
-                            "src": "1310:6:0",
+                            "referencedDeclaration": 297,
+                            "src": "1310:6:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bytes32",
                               "typeString": "bytes32"
                             }
                           },
-                          "src": "1292:24:0",
+                          "src": "1292:24:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
                           }
                         },
-                        "id": 85,
+                        "id": 331,
                         "nodeType": "ExpressionStatement",
-                        "src": "1292:24:0"
+                        "src": "1292:24:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 90,
+                          "id": 336,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2851,26 +2851,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 86,
+                              "id": 332,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1330:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1330:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 88,
+                            "id": 334,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "dateWritten",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 141,
-                            "src": "1330:21:0",
+                            "referencedDeclaration": 387,
+                            "src": "1330:21:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2880,31 +2880,31 @@
                           "operator": "=",
                           "rightHandSide": {
                             "argumentTypes": null,
-                            "id": 89,
+                            "id": 335,
                             "name": "_dateWritten",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 53,
-                            "src": "1354:12:0",
+                            "referencedDeclaration": 299,
+                            "src": "1354:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1330:36:0",
+                          "src": "1330:36:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 91,
+                        "id": 337,
                         "nodeType": "ExpressionStatement",
-                        "src": "1330:36:0"
+                        "src": "1330:36:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 97,
+                          "id": 343,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2913,26 +2913,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 92,
+                              "id": 338,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1380:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1380:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 94,
+                            "id": 340,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "dateRegistered",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 143,
-                            "src": "1380:24:0",
+                            "referencedDeclaration": 389,
+                            "src": "1380:24:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -2944,18 +2944,18 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 95,
+                              "id": 341,
                               "name": "block",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 151,
-                              "src": "1407:5:0",
+                              "referencedDeclaration": 792,
+                              "src": "1407:5:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_magic_block",
                                 "typeString": "block"
                               }
                             },
-                            "id": 96,
+                            "id": 342,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": false,
@@ -2963,26 +2963,26 @@
                             "memberName": "timestamp",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": null,
-                            "src": "1407:15:0",
+                            "src": "1407:15:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1380:42:0",
+                          "src": "1380:42:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
-                        "id": 98,
+                        "id": 344,
                         "nodeType": "ExpressionStatement",
-                        "src": "1380:42:0"
+                        "src": "1380:42:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
-                          "id": 103,
+                          "id": 349,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": false,
@@ -2991,26 +2991,26 @@
                             "argumentTypes": null,
                             "expression": {
                               "argumentTypes": null,
-                              "id": 99,
+                              "id": 345,
                               "name": "_document",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 63,
-                              "src": "1436:9:0",
+                              "referencedDeclaration": 309,
+                              "src": "1436:9:3",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_struct$_Document_$146_storage_ptr",
+                                "typeIdentifier": "t_struct$_Document_$392_storage_ptr",
                                 "typeString": "struct DocAuth.Document storage pointer"
                               }
                             },
-                            "id": 101,
+                            "id": 347,
                             "isConstant": false,
                             "isLValue": true,
                             "isPure": false,
                             "lValueRequested": true,
                             "memberName": "isInitialized",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 145,
-                            "src": "1436:23:0",
+                            "referencedDeclaration": 391,
+                            "src": "1436:23:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
                               "typeString": "bool"
@@ -3021,14 +3021,14 @@
                           "rightHandSide": {
                             "argumentTypes": null,
                             "hexValue": "74727565",
-                            "id": 102,
+                            "id": 348,
                             "isConstant": false,
                             "isLValue": false,
                             "isPure": true,
                             "kind": "bool",
                             "lValueRequested": false,
                             "nodeType": "Literal",
-                            "src": "1462:4:0",
+                            "src": "1462:4:3",
                             "subdenomination": null,
                             "typeDescriptions": {
                               "typeIdentifier": "t_bool",
@@ -3036,28 +3036,28 @@
                             },
                             "value": "true"
                           },
-                          "src": "1436:30:0",
+                          "src": "1436:30:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         },
-                        "id": 104,
+                        "id": 350,
                         "nodeType": "ExpressionStatement",
-                        "src": "1436:30:0"
+                        "src": "1436:30:3"
                       },
                       {
                         "expression": {
                           "argumentTypes": null,
                           "hexValue": "74727565",
-                          "id": 105,
+                          "id": 351,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
                           "kind": "bool",
                           "lValueRequested": false,
                           "nodeType": "Literal",
-                          "src": "1489:4:0",
+                          "src": "1489:4:3",
                           "subdenomination": null,
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
@@ -3065,17 +3065,17 @@
                           },
                           "value": "true"
                         },
-                        "functionReturnParameters": 57,
-                        "id": 106,
+                        "functionReturnParameters": 303,
+                        "id": 352,
                         "nodeType": "Return",
-                        "src": "1482:11:0"
+                        "src": "1482:11:3"
                       }
                     ]
                   }
                 }
               ]
             },
-            "id": 113,
+            "id": 359,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -3083,16 +3083,16 @@
             "name": "register",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 54,
+              "id": 300,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 45,
+                  "id": 291,
                   "name": "_hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "974:13:0",
+                  "scope": 359,
+                  "src": "974:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3100,10 +3100,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 44,
+                    "id": 290,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "974:7:0",
+                    "src": "974:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3114,11 +3114,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 47,
+                  "id": 293,
                   "name": "_author",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "989:15:0",
+                  "scope": 359,
+                  "src": "989:15:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3126,10 +3126,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 46,
+                    "id": 292,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "989:7:0",
+                    "src": "989:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3140,11 +3140,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 49,
+                  "id": 295,
                   "name": "_title",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1005:14:0",
+                  "scope": 359,
+                  "src": "1005:14:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3152,10 +3152,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 48,
+                    "id": 294,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1005:7:0",
+                    "src": "1005:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3166,11 +3166,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 51,
+                  "id": 297,
                   "name": "_email",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1020:14:0",
+                  "scope": 359,
+                  "src": "1020:14:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3178,10 +3178,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 50,
+                    "id": 296,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1020:7:0",
+                    "src": "1020:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3192,11 +3192,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 53,
+                  "id": 299,
                   "name": "_dateWritten",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1035:20:0",
+                  "scope": 359,
+                  "src": "1035:20:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3204,10 +3204,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 52,
+                    "id": 298,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1035:7:0",
+                    "src": "1035:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3217,20 +3217,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "973:83:0"
+              "src": "973:83:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 57,
+              "id": 303,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 56,
+                  "id": 302,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 113,
-                  "src": "1073:4:0",
+                  "scope": 359,
+                  "src": "1073:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3238,10 +3238,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 55,
+                    "id": 301,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1073:4:0",
+                    "src": "1073:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3251,30 +3251,30 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1072:6:0"
+              "src": "1072:6:3"
             },
-            "scope": 147,
-            "src": "956:586:0",
+            "scope": 393,
+            "src": "956:586:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 132,
+              "id": 378,
               "nodeType": "Block",
-              "src": "1622:146:0",
+              "src": "1622:146:3",
               "statements": [
                 {
                   "assignments": [],
                   "declarations": [
                     {
                       "constant": false,
-                      "id": 121,
+                      "id": 367,
                       "name": "_storedIsInitialized",
                       "nodeType": "VariableDeclaration",
-                      "scope": 133,
-                      "src": "1633:25:0",
+                      "scope": 379,
+                      "src": "1633:25:3",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3282,10 +3282,10 @@
                         "typeString": "bool"
                       },
                       "typeName": {
-                        "id": 120,
+                        "id": 366,
                         "name": "bool",
                         "nodeType": "ElementaryTypeName",
-                        "src": "1633:4:0",
+                        "src": "1633:4:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bool",
                           "typeString": "bool"
@@ -3295,15 +3295,15 @@
                       "visibility": "internal"
                     }
                   ],
-                  "id": 122,
+                  "id": 368,
                   "initialValue": null,
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "1633:25:0"
+                  "src": "1633:25:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 128,
+                    "id": 374,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -3318,26 +3318,26 @@
                         null,
                         {
                           "argumentTypes": null,
-                          "id": 123,
+                          "id": 369,
                           "name": "_storedIsInitialized",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 121,
-                          "src": "1680:20:0",
+                          "referencedDeclaration": 367,
+                          "src": "1680:20:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
                           }
                         }
                       ],
-                      "id": 124,
+                      "id": 370,
                       "isConstant": false,
                       "isInlineArray": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "nodeType": "TupleExpression",
-                      "src": "1669:32:0",
+                      "src": "1669:32:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_tuple$__$__$__$__$__$_t_bool_$",
                         "typeString": "tuple(,,,,,bool)"
@@ -3350,12 +3350,12 @@
                       "arguments": [
                         {
                           "argumentTypes": null,
-                          "id": 126,
+                          "id": 372,
                           "name": "_hash",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 115,
-                          "src": "1716:5:0",
+                          "referencedDeclaration": 361,
+                          "src": "1716:5:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bytes32",
                             "typeString": "bytes32"
@@ -3369,18 +3369,18 @@
                             "typeString": "bytes32"
                           }
                         ],
-                        "id": 125,
+                        "id": 371,
                         "name": "getDocument",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 43,
-                        "src": "1704:11:0",
+                        "referencedDeclaration": 289,
+                        "src": "1704:11:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$_t_bytes32_$returns$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_uint256_$_t_bool_$",
                           "typeString": "function (bytes32) view returns (bytes32,bytes32,bytes32,uint256,uint256,bool)"
                         }
                       },
-                      "id": 127,
+                      "id": 373,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": false,
@@ -3388,44 +3388,44 @@
                       "lValueRequested": false,
                       "names": [],
                       "nodeType": "FunctionCall",
-                      "src": "1704:18:0",
+                      "src": "1704:18:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_tuple$_t_bytes32_$_t_bytes32_$_t_bytes32_$_t_uint256_$_t_uint256_$_t_bool_$",
                         "typeString": "tuple(bytes32,bytes32,bytes32,uint256,uint256,bool)"
                       }
                     },
-                    "src": "1669:53:0",
+                    "src": "1669:53:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 129,
+                  "id": 375,
                   "nodeType": "ExpressionStatement",
-                  "src": "1669:53:0"
+                  "src": "1669:53:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 130,
+                    "id": 376,
                     "name": "_storedIsInitialized",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 121,
-                    "src": "1740:20:0",
+                    "referencedDeclaration": 367,
+                    "src": "1740:20:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
                     }
                   },
-                  "functionReturnParameters": 119,
-                  "id": 131,
+                  "functionReturnParameters": 365,
+                  "id": 377,
                   "nodeType": "Return",
-                  "src": "1733:27:0"
+                  "src": "1733:27:3"
                 }
               ]
             },
-            "id": 133,
+            "id": 379,
             "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3433,16 +3433,16 @@
             "name": "isDocumentRegistered",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 116,
+              "id": 362,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 115,
+                  "id": 361,
                   "name": "_hash",
                   "nodeType": "VariableDeclaration",
-                  "scope": 133,
-                  "src": "1580:13:0",
+                  "scope": 379,
+                  "src": "1580:13:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3450,10 +3450,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 114,
+                    "id": 360,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1580:7:0",
+                    "src": "1580:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3463,20 +3463,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1579:15:0"
+              "src": "1579:15:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 119,
+              "id": 365,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 118,
+                  "id": 364,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 133,
-                  "src": "1616:4:0",
+                  "scope": 379,
+                  "src": "1616:4:3",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3484,10 +3484,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 117,
+                    "id": 363,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1616:4:0",
+                    "src": "1616:4:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3497,25 +3497,25 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1615:6:0"
+              "src": "1615:6:3"
             },
-            "scope": 147,
-            "src": "1550:218:0",
+            "scope": 393,
+            "src": "1550:218:3",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           },
           {
             "canonicalName": "DocAuth.Document",
-            "id": 146,
+            "id": 392,
             "members": [
               {
                 "constant": false,
-                "id": 135,
+                "id": 381,
                 "name": "author",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1803:15:0",
+                "scope": 392,
+                "src": "1803:15:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3523,10 +3523,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 134,
+                  "id": 380,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1803:7:0",
+                  "src": "1803:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -3537,11 +3537,11 @@
               },
               {
                 "constant": false,
-                "id": 137,
+                "id": 383,
                 "name": "title",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1829:14:0",
+                "scope": 392,
+                "src": "1829:14:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3549,10 +3549,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 136,
+                  "id": 382,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1829:7:0",
+                  "src": "1829:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -3563,11 +3563,11 @@
               },
               {
                 "constant": false,
-                "id": 139,
+                "id": 385,
                 "name": "email",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1854:14:0",
+                "scope": 392,
+                "src": "1854:14:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3575,10 +3575,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 138,
+                  "id": 384,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1854:7:0",
+                  "src": "1854:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -3589,11 +3589,11 @@
               },
               {
                 "constant": false,
-                "id": 141,
+                "id": 387,
                 "name": "dateWritten",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1879:20:0",
+                "scope": 392,
+                "src": "1879:20:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3601,10 +3601,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 140,
+                  "id": 386,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1879:7:0",
+                  "src": "1879:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -3615,11 +3615,11 @@
               },
               {
                 "constant": false,
-                "id": 143,
+                "id": 389,
                 "name": "dateRegistered",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1910:23:0",
+                "scope": 392,
+                "src": "1910:23:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3627,10 +3627,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 142,
+                  "id": 388,
                   "name": "uint256",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1910:7:0",
+                  "src": "1910:7:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -3641,11 +3641,11 @@
               },
               {
                 "constant": false,
-                "id": 145,
+                "id": 391,
                 "name": "isInitialized",
                 "nodeType": "VariableDeclaration",
-                "scope": 146,
-                "src": "1944:19:0",
+                "scope": 392,
+                "src": "1944:19:3",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -3653,10 +3653,10 @@
                   "typeString": "bool"
                 },
                 "typeName": {
-                  "id": 144,
+                  "id": 390,
                   "name": "bool",
                   "nodeType": "ElementaryTypeName",
-                  "src": "1944:4:0",
+                  "src": "1944:4:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bool",
                     "typeString": "bool"
@@ -3668,16 +3668,16 @@
             ],
             "name": "Document",
             "nodeType": "StructDefinition",
-            "scope": 147,
-            "src": "1776:195:0",
+            "scope": 393,
+            "src": "1776:195:3",
             "visibility": "public"
           }
         ],
-        "scope": 148,
-        "src": "28:1949:0"
+        "scope": 394,
+        "src": "28:1949:3"
       }
     ],
-    "src": "0:1979:0"
+    "src": "0:1979:3"
   },
   "compiler": {
     "name": "solc",
@@ -3746,5 +3746,5 @@
     }
   },
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-06T18:29:49.745Z"
+  "updatedAt": "2018-04-09T15:56:30.475Z"
 }

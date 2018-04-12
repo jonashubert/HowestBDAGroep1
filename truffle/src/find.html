@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document Authenticity Checker</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha18/css/tempusdominus-bootstrap-4.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <header>
+    <ul>
+      <li><a href="/index.html" >Register</a></li>
+      <li><a href="/check.html">Check Authenticity</a></li>
+      <li><a href="/find.html" class="active">Find a document</a></li>
+    </ul>
+  </header>
+
+  <div class="container ">
+    <div class="row">
+      <div class="col">
+        <h1>Authenticity Checker</h1>
+        <h2 id="register">Find a document</h2>
+      </div>
+    </div>
+    <div id="docinfo" class="alert alert-success" style="display:none" role="alert"></div>
+  </div>
+
+  <form id="mainForm">
+    <div class="container form-group">
+      <div class="row">
+        <div class="col">
+          <label for="author">Enter the author name</label>
+          <input id="author" name="author" class="form-control form-control-lg" required placeholder="Author" type="text">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button id="searchDocument" type="button" class="btn btn-primary">Search Document</button>
+          <button type="reset" class="btn btn-secondary">Reset</button>
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div class="overlay" style="display:none">
+    <div class="loaderContainer">
+      <div class="loader"></div>
+    </div>    
+  </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.21.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/datejs/1.0/date.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha18/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
