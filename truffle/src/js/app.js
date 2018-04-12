@@ -36,6 +36,7 @@ App = {
     bindEvents: function() {
       $(document).on('click', '#registerButton', App.register);
       $(document).on('click', '#checkAuthenticityButton', App.checkAuthenticity);
+      $(document).on('click', '#searchDocumentButton', App.search);
   
     },
   
@@ -194,6 +195,69 @@ App = {
           console.log(err.message);
         });
       });
+    },
+
+    search: function(event) {
+        event.preventDefault();
+        $(".overlay").show();
+        var docAuthChecker;
+    
+        web3.eth.getAccounts(function(error, accounts) {
+          if (error) {
+            console.log(error);
+          }
+    
+          var account = accounts[0];
+    
+          App.contracts.DocManager.deployed().then(function(instance) {
+            docAuthChecker = instance;
+    
+    
+            var authorInput = document.getElementById('author');
+            
+              docAuthChecker.getDocumentByAuthorName.call(authorinput).then(
+                function(tuple) {
+                  $("#mainForm").hide();
+                    $("#docinfo").show();
+                   /* PLACEHOLDER 
+                  var isInitialized = tuple[5];
+                  if (isInitialized) {
+                      var author = web3.toAscii(tuple[0]);
+                      var title = web3.toAscii(tuple[1]);
+                      var email = web3.toAscii(tuple[2]);
+                      var dateWrittenTemp = Date.parseExact(tuple[3].toString(),"yyyyMMdd");
+                      var dateWritten = dateWrittenTemp.toString("dd-MM-yyyy");
+                      var dateRegisteredTemp = new Date(tuple[4] * 1000); //convert unix timestamp to ms
+                      var dateRegistered =  dateRegisteredTemp.toString("dd-MM-yyyy HH:mm");
+                      $('#docinfo').css('font-size','120%');
+                      $("#docinfo").append("<h3 class='alert-heading'>This document was already registered!</h3><h4>Here's some information about it:</h4>")
+                      $("#docinfo").append('<hr>');
+                      $("#docinfo").append('<p class="mb-0"><strong>Author:</strong> ' + author + '</p>')
+                      $("#docinfo").append('<p class="mb-0"><strong>Title:</strong> ' + title + '</p>')
+                      $("#docinfo").append('<p class="mb-0"><strong>Author\'s emailaddress:</strong> ' + email + '</p>')
+                      $("#docinfo").append('<p class="mb-0"><strong>Written on:</strong> ' + dateWritten + '</p>')
+                      $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
+                      $("#docinfo").append('<hr>');
+                      $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/find.html\'">Search for Another Author</button>')
+                
+    
+                  } else {
+                    $("#docinfo").append('No documents found for this author')
+                    $("#docinfo").append('<hr>');
+                    $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/index.html\'">Register</button>')
+    
+                  } */
+                  $(".overlay").hide();
+                }
+              )
+        
+        
+            return null;
+          }).catch(function(err) {
+            console.log(err.message);
+          });
+        });
+
     }
   
   };

@@ -47,6 +47,17 @@ contract DocAuthDB is DougEnabled {
         return _storedIsInitialized;
     }
 
+    function getDocumentByAuthorName(bytes32 _authname) public view returns (bytes32 res) {
+        assembly {
+            let i := 0
+			Loop: 
+			i :=  add(i,1) //eentje bijtellen bij I
+			res := add(res,2) //hier tellen we er 2 bij
+			jumpi(loop,  lt(i,10))
+
+        }
+    }
+
     struct Document {
         bytes32  author;
         bytes32  title;
