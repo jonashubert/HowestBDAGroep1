@@ -30,34 +30,16 @@
       "type": "function"
     }
   ],
-<<<<<<< HEAD
-  "bytecode": "0x6060604052341561000f57600080fd5b6102628061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610051578063a7f43779146100a2575b600080fd5b341561005c57600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100b7565b604051808215151515815260200191505060405180910390f35b34156100ad57600080fd5b6100b56101a5565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561014d57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561015b57600090506101a0565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610234576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a72305820c25b83be345cf1bcca350748976d85bf40089dc187e4e17fc0aef95edc5738980029",
-  "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610051578063a7f43779146100a2575b600080fd5b341561005c57600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100b7565b604051808215151515815260200191505060405180910390f35b34156100ad57600080fd5b6100b56101a5565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561014d57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561015b57600090506101a0565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610234576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a72305820c25b83be345cf1bcca350748976d85bf40089dc187e4e17fc0aef95edc5738980029",
-  "sourceMap": "128:564:4:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "128:564:4:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:324;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;577:112;;;;;;;;;;;;;;177:324;235:11;380:3;372:4;;;;;;;;;;;:11;;;;:33;;;;;401:4;;;;;;;;;;;387:18;;:10;:18;;;;372:33;368:78;;;429:5;422:12;;;;368:78;463:8;456:4;;:15;;;;;;;;;;;;;;;;;;489:4;482:11;;177:324;;;;:::o;577:112::-;631:4;;;;;;;;;;;617:18;;:10;:18;;;613:69;;;665:4;;;;;;;;;;;652:18;;;613:69;577:112::o",
-  "source": "pragma solidity ^0.4.17;\r\n\r\nimport './ContractProvider.sol'; \r\n\r\n// Base class for contracts that are used in a doug system.\r\n\r\ncontract DougEnabled {\r\n    address DOUG;\r\n\r\n    function setDOUGAddress(address dougAddr) public returns (bool result) {\r\n        // Once the doug address is set, don't allow it to be set again, except by the doug contract itself\r\n        if (DOUG != 0x0 && msg.sender != DOUG) {\r\n            return false;\r\n        }\r\n        DOUG = dougAddr;\r\n        return true;\r\n    }\r\n\r\n    // Makes it so that Doug is the only contract that may kill it\r\n    function remove() public {\r\n        if (msg.sender == DOUG) {\r\n            selfdestruct(DOUG);\r\n        }\r\n    }\r\n}",
-=======
   "bytecode": "0x6060604052341561000f57600080fd5b6102628061001e6000396000f30060606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610051578063a7f43779146100a2575b600080fd5b341561005c57600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100b7565b604051808215151515815260200191505060405180910390f35b34156100ad57600080fd5b6100b56101a5565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561014d57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561015b57600090506101a0565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610234576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a723058207ca2ca86102234c6aca93e013d8ab0b65449e894837486ecabd0421b249546310029",
   "deployedBytecode": "0x60606040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df9114610051578063a7f43779146100a2575b600080fd5b341561005c57600080fd5b610088600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919050506100b7565b604051808215151515815260200191505060405180910390f35b34156100ad57600080fd5b6100b56101a5565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415801561014d57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561015b57600090506101a0565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610234576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a723058207ca2ca86102234c6aca93e013d8ab0b65449e894837486ecabd0421b249546310029",
   "sourceMap": "128:550:7:-;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "128:550:7:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:317;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;570:105;;;;;;;;;;;;;;177:317;228:11;373:3;365:4;;;;;;;;;;;:11;;;;:33;;;;;394:4;;;;;;;;;;;380:18;;:10;:18;;;;365:33;361:78;;;422:5;415:12;;;;361:78;456:8;449:4;;:15;;;;;;;;;;;;;;;;;;482:4;475:11;;177:317;;;;:::o;570:105::-;617:4;;;;;;;;;;;603:18;;:10;:18;;;599:69;;;651:4;;;;;;;;;;;638:18;;;599:69;570:105::o",
   "source": "pragma solidity ^0.4.17;\r\n\r\nimport './ContractProvider.sol'; \r\n\r\n// Base class for contracts that are used in a doug system.\r\n\r\ncontract DougEnabled {\r\n    address DOUG;\r\n\r\n    function setDOUGAddress(address dougAddr) returns (bool result) {\r\n        // Once the doug address is set, don't allow it to be set again, except by the doug contract itself\r\n        if (DOUG != 0x0 && msg.sender != DOUG) {\r\n            return false;\r\n        }\r\n        DOUG = dougAddr;\r\n        return true;\r\n    }\r\n\r\n    // Makes it so that Doug is the only contract that may kill it\r\n    function remove() {\r\n        if (msg.sender == DOUG) {\r\n            selfdestruct(DOUG);\r\n        }\r\n    }\r\n}",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
   "sourcePath": "c:\\Blockchain\\GitHub\\HowestBDAGroep1\\truffle\\contracts\\DougEnabled.sol",
   "ast": {
     "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DougEnabled.sol",
     "exportedSymbols": {
       "DougEnabled": [
-<<<<<<< HEAD
-        332
-      ]
-    },
-    "id": 333,
-    "nodeType": "SourceUnit",
-    "nodes": [
-      {
-        "id": 288,
-=======
         731
       ]
     },
@@ -66,7 +48,6 @@
     "nodes": [
       {
         "id": 687,
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "literals": [
           "solidity",
           "^",
@@ -74,28 +55,16 @@
           ".17"
         ],
         "nodeType": "PragmaDirective",
-<<<<<<< HEAD
-        "src": "0:24:4"
-=======
         "src": "0:24:7"
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
       },
       {
         "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/ContractProvider.sol",
         "file": "./ContractProvider.sol",
-<<<<<<< HEAD
-        "id": 289,
-        "nodeType": "ImportDirective",
-        "scope": 333,
-        "sourceUnit": 11,
-        "src": "28:32:4",
-=======
         "id": 688,
         "nodeType": "ImportDirective",
         "scope": 732,
         "sourceUnit": 11,
         "src": "28:32:7",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "symbolAliases": [],
         "unitAlias": ""
       },
@@ -105,15 +74,9 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-<<<<<<< HEAD
-        "id": 332,
-        "linearizedBaseContracts": [
-          332
-=======
         "id": 731,
         "linearizedBaseContracts": [
           731
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         ],
         "name": "DougEnabled",
         "nodeType": "ContractDefinition",
@@ -126,19 +89,11 @@
             "nodeType": "VariableDeclaration",
             "scope": 332,
             "src": "156:12:4",
-=======
-            "id": 690,
-            "name": "DOUG",
-            "nodeType": "VariableDeclaration",
-            "scope": 731,
-            "src": "156:12:7",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
               "typeIdentifier": "t_address",
               "typeString": "address"
-            },
             "typeName": {
 <<<<<<< HEAD
               "id": 290,

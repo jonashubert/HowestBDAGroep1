@@ -21,19 +21,11 @@
       "type": "function"
     }
   ],
-<<<<<<< HEAD
-  "bytecode": "0x6060604052341561000f57600080fd5b60db8061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a72305820c49e8dc6711618475037df1a5b65b883738d55a238ad6196833f70caab2b3fa30029",
-  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a72305820c49e8dc6711618475037df1a5b65b883738d55a238ad6196833f70caab2b3fa30029",
-  "sourceMap": "74:102:0:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "74:102:0:-;;;;;;;;;;;;;;;;;;;;;;;;107:66;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;157:12;107:66;;;:::o",
-  "source": "pragma solidity ^0.4.17;\r\n\r\n// Interface for getting contracts from Doug\r\ncontract ContractProvider {\r\n    function contracts (bytes32 name) public returns (address addr) {}\r\n} \r\n\r\n",
-=======
   "bytecode": "0x6060604052341561000f57600080fd5b60db8061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a72305820cfc5122687c6183bc046858331f18d60a2b89dc7ea241ece66bc78076e9745850029",
   "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a72305820cfc5122687c6183bc046858331f18d60a2b89dc7ea241ece66bc78076e9745850029",
   "sourceMap": "74:95:0:-;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "74:95:0:-;;;;;;;;;;;;;;;;;;;;;;;;107:59;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;150:12;107:59;;;:::o",
   "source": "pragma solidity ^0.4.17;\r\n\r\n// Interface for getting contracts from Doug\r\ncontract ContractProvider {\r\n    function contracts (bytes32 name) returns (address addr) {}\r\n} \r\n\r\n",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
   "sourcePath": "c:\\Blockchain\\GitHub\\HowestBDAGroep1\\truffle\\contracts\\ContractProvider.sol",
   "ast": {
     "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/ContractProvider.sol",
@@ -73,11 +65,7 @@
             "body": {
               "id": 8,
               "nodeType": "Block",
-<<<<<<< HEAD
-              "src": "171:2:0",
-=======
               "src": "164:2:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
               "statements": []
             },
             "id": 9,
@@ -131,11 +119,7 @@
                   "name": "addr",
                   "nodeType": "VariableDeclaration",
                   "scope": 9,
-<<<<<<< HEAD
-                  "src": "157:12:0",
-=======
                   "src": "150:12:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -146,11 +130,7 @@
                     "id": 5,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
-                    "src": "157:7:0",
-=======
                     "src": "150:7:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -160,34 +140,20 @@
                   "visibility": "internal"
                 }
               ],
-<<<<<<< HEAD
-              "src": "156:14:0"
-            },
-            "scope": 10,
-            "src": "107:66:0",
-=======
               "src": "149:14:0"
             },
             "scope": 10,
             "src": "107:59:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 11,
-<<<<<<< HEAD
-        "src": "74:102:0"
-      }
-    ],
-    "src": "0:181:0"
-=======
         "src": "74:95:0"
       }
     ],
     "src": "0:174:0"
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
   },
   "legacyAST": {
     "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/ContractProvider.sol",
@@ -227,15 +193,7 @@
             "body": {
               "id": 8,
               "nodeType": "Block",
-<<<<<<< HEAD
-              "src": "171:2:0",
-=======
-              "src": "164:2:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
               "statements": []
-            },
-            "id": 9,
-            "implemented": true,
             "isConstructor": false,
             "isDeclaredConst": false,
             "modifiers": [],
@@ -285,11 +243,7 @@
                   "name": "addr",
                   "nodeType": "VariableDeclaration",
                   "scope": 9,
-<<<<<<< HEAD
-                  "src": "157:12:0",
-=======
                   "src": "150:12:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -300,11 +254,7 @@
                     "id": 5,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-<<<<<<< HEAD
-                    "src": "157:7:0",
-=======
                     "src": "150:7:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -314,34 +264,20 @@
                   "visibility": "internal"
                 }
               ],
-<<<<<<< HEAD
-              "src": "156:14:0"
-            },
-            "scope": 10,
-            "src": "107:66:0",
-=======
               "src": "149:14:0"
             },
             "scope": 10,
             "src": "107:59:0",
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 11,
-<<<<<<< HEAD
-        "src": "74:102:0"
-      }
-    ],
-    "src": "0:181:0"
-=======
         "src": "74:95:0"
       }
     ],
     "src": "0:174:0"
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
   },
   "compiler": {
     "name": "solc",
@@ -349,9 +285,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-<<<<<<< HEAD
-  "updatedAt": "2018-04-12T17:34:08.527Z"
-=======
   "updatedAt": "2018-04-09T15:56:30.431Z"
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
 }

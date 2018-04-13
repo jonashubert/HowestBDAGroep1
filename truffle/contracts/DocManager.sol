@@ -42,8 +42,4 @@ contract DocManager is DougEnabled {
         return success;
 
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
