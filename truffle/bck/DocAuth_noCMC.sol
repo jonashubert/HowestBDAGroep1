@@ -1,10 +1,6 @@
-pragma solidity ^0.4.17;
+pragma solidity ^0.4.18;
 
-import './DocManagerEnabled.sol';
-
-// The Doc Auth database
-contract DocAuthDB is DougEnabled {
-
+contract DocAuth_noCMC {
    //This is where we keep all the contracts
     mapping(bytes32 => Document) private documentLibrary;
 
@@ -18,27 +14,21 @@ contract DocAuthDB is DougEnabled {
         return (_document.author, _document.title, _document.email, _document.dateWritten, _document.dateRegistered, _document.isInitialized);
     }
 
-    function register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten) public returns (bool) {
-        if (DOUG != 0x0) {
-            address docauth = ContractProvider(DOUG).contracts("docauth");
-            if (msg.sender == docauth && !isDocumentRegistered(_hash) ) {
-                Document storage _document = documentLibrary[_hash];
-                _document.author = _author;
-                _document.title = _title;
-                _document.email = _email;
-                _document.dateWritten = _dateWritten;
-                _document.dateRegistered = block.timestamp;
-                _document.isInitialized = true;
+    function register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten) public returns (bool)
+    {
+       if(!isDocumentRegistered(_hash))
+       {
+           Document storage _document = documentLibrary[_hash];
+           _document.author = _author;
+           _document.title = _title;
+           _document.email = _email;
+           _document.dateWritten = _dateWritten;
+           _document.dateRegistered = block.timestamp;
+           _document.isInitialized = true;
 
-                return true;
-            }
-           else {
-               // Return if registration cannot be made
-               //msg.sender.send(msg.value);
-               return false; 
-            }
-        }
-            
+           return true;
+       }
+       else { return false; }
     }
 
     function isDocumentRegistered(bytes32 _hash) public view returns (bool) {
@@ -47,13 +37,6 @@ contract DocAuthDB is DougEnabled {
         return _storedIsInitialized;
     }
 
-<<<<<<< HEAD
-    function getDocumentByAuthorName(bytes32 _authname) public view returns (bytes32 res) {
-       // assembly {      }
-    }
-
-=======
->>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
     struct Document {
         bytes32  author;
         bytes32  title;
@@ -63,5 +46,4 @@ contract DocAuthDB is DougEnabled {
         bool  isInitialized;
     }
 
-
-} 
+ }

@@ -21,7 +21,11 @@
       "type": "function"
     },
     {
+<<<<<<< HEAD
       "constant": true,
+=======
+      "constant": false,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
       "inputs": [],
       "name": "isDocManager",
       "outputs": [
@@ -31,7 +35,16 @@
         }
       ],
       "payable": false,
-      "stateMutability": "view",
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "remove",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
       "type": "function"
     },
     {
@@ -79,12 +92,21 @@
       "type": "function"
     }
   ],
+<<<<<<< HEAD
   "bytecode": "0x6060604052341561000f57600080fd5b6106688061001e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df91146100675780636fb35b43146100b85780637a1a5956146100e5578063a7f4377914610154575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610169565b604051808215151515815260200191505060405180910390f35b34156100c357600080fd5b6100cb610257565b604051808215151515815260200191505060405180910390f35b34156100f057600080fd5b61013a6004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506103af565b604051808215151515815260200191505060405180910390f35b341561015f57600080fd5b6101676105ab565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141580156101ff57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561020d5760009050610252565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b60008060008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415156103a6576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736000604051602001526040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f636d616e61676572000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561035357600080fd5b6102c65a03f1151561036457600080fd5b5050506040518051905090508073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161491506103ab565b600091505b5090565b60008060006103bc610257565b15156103cb57600092506105a0565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736000604051602001526040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468646200000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561048357600080fd5b6102c65a03f1151561049457600080fd5b50505060405180519050915060008273ffffffffffffffffffffffffffffffffffffffff1614156104c857600092506105a0565b8173ffffffffffffffffffffffffffffffffffffffff16637a1a595689898989896000604051602001526040518663ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180866000191660001916815260200185600019166000191681526020018460001916600019168152602001836000191660001916815260200182815260200195505050505050602060405180830381600087803b151561057f57600080fd5b6102c65a03f1151561059057600080fd5b5050506040518051905090508092505b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561063a576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a7230582098385a13231aa51d3c32b61e646b3bf77e2b9ffa0778cab0458beb2cabb21b500029",
   "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df91146100675780636fb35b43146100b85780637a1a5956146100e5578063a7f4377914610154575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610169565b604051808215151515815260200191505060405180910390f35b34156100c357600080fd5b6100cb610257565b604051808215151515815260200191505060405180910390f35b34156100f057600080fd5b61013a6004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506103af565b604051808215151515815260200191505060405180910390f35b341561015f57600080fd5b6101676105ab565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141580156101ff57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561020d5760009050610252565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b60008060008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff161415156103a6576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736000604051602001526040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f636d616e61676572000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561035357600080fd5b6102c65a03f1151561036457600080fd5b5050506040518051905090508073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161491506103ab565b600091505b5090565b60008060006103bc610257565b15156103cb57600092506105a0565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736000604051602001526040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468646200000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561048357600080fd5b6102c65a03f1151561049457600080fd5b50505060405180519050915060008273ffffffffffffffffffffffffffffffffffffffff1614156104c857600092506105a0565b8173ffffffffffffffffffffffffffffffffffffffff16637a1a595689898989896000604051602001526040518663ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180866000191660001916815260200185600019166000191681526020018460001916600019168152602001836000191660001916815260200182815260200195505050505050602060405180830381600087803b151561057f57600080fd5b6102c65a03f1151561059057600080fd5b5050506040518051905090508092505b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16141561063a576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a7230582098385a13231aa51d3c32b61e646b3bf77e2b9ffa0778cab0458beb2cabb21b500029",
   "sourceMap": "105:1083:1:-;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "105:1083:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:324:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;293:236:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;193:992:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;577:112:4;;;;;;;;;;;;;;177:324;235:11;380:3;372:4;;;;;;;;;;;:11;;;;:33;;;;;401:4;;;;;;;;;;;387:18;;:10;:18;;;;372:33;368:78;;;429:5;422:12;;;;368:78;463:8;456:4;;:15;;;;;;;;;;;;;;;;;;489:4;482:11;;177:324;;;;:::o;293:236:3:-;342:4;390:10;370:3;362:4;;;;;;;;;;;:11;;;;359:140;;;420:4;;;;;;;;;;;403:32;;;:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;390:59;;485:2;471:16;;:10;:16;;;464:23;;;;359:140;516:5;509:12;;293:236;;;:::o;193:992:1:-;310:8;403:17;805:12;336:14;:12;:14::i;:::-;335:15;331:60;;;374:5;367:12;;;;331:60;440:4;;;;;;;;;;;423:32;;;:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;403:65;;496:3;483:9;:16;;;479:207;;;669:5;662:12;;;;479:207;830:9;820:29;;;850:5;857:7;866:6;874;882:12;820:75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;805:90;;1170:7;1163:14;;193:992;;;;;;;;;;:::o;577:112:4:-;631:4;;;;;;;;;;;617:18;;:10;:18;;;613:69;;;665:4;;;;;;;;;;;652:18;;;613:69;577:112::o",
   "source": "pragma solidity ^0.4.18;\r\n\r\nimport './DocManagerEnabled.sol';\r\nimport './DocAuthDB.sol';\r\n\r\n// Doc Auth\r\ncontract DocAuth is DocManagerEnabled {\r\n\r\n    // Attempt to register the document\r\n    function register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten) public returns (bool res) {\r\n        if (!isDocManager()) {\r\n            return false;\r\n        }\r\n\r\n        address docauthdb = ContractProvider(DOUG).contracts(\"docauthdb\");\r\n        if (docauthdb == 0x0) {\r\n            // document can not be registered\r\n            // Note - if registration costs money we should return it msg.sender.send(msg.value);\r\n            return false;\r\n        }\r\n\r\n        // Use the interface to call on the docauthdb contract. We pass allong all the parameters as well\r\n        bool success = DocAuthDB(docauthdb).register(_hash, _author, _title, _email, _dateWritten);\r\n\r\n        // if the transation failed, return the ether to the caller.\r\n        // note : we rekenen voor de moment geen kost aan -> dus dit stukje is misschien wat overbodig ?\r\n        if (!success) {\r\n            //msg.sender.send(msg.value);\r\n        }\r\n        return success;\r\n    }\r\n}",
   "sourcePath": "c:\\Blockchain\\GitHub\\HowestBDAGroep1\\truffle\\contracts\\DocAuth.sol",
+=======
+  "bytecode": "0x6060604052341561000f57600080fd5b6106418061001e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df91146100675780636fb35b43146100b85780637a1a5956146100e5578063a7f4377914610154575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610169565b604051808215151515815260200191505060405180910390f35b34156100c357600080fd5b6100cb610257565b604051808215151515815260200191505060405180910390f35b34156100f057600080fd5b61013a6004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506103a2565b604051808215151515815260200191505060405180910390f35b341561015f57600080fd5b610167610584565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141580156101ff57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561020d5760009050610252565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b60008060008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141515610399576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f636d616e61676572000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561034a57600080fd5b5af1151561035757600080fd5b5050506040518051905090508073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614915061039e565b600091505b5090565b60008060006103af610257565b15156103be5760009250610579565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468646200000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561046d57600080fd5b5af1151561047a57600080fd5b50505060405180519050915060008273ffffffffffffffffffffffffffffffffffffffff1614156104ae5760009250610579565b8173ffffffffffffffffffffffffffffffffffffffff16637a1a595689898989896040518663ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180866000191660001916815260200185600019166000191681526020018460001916600019168152602001836000191660001916815260200182815260200195505050505050602060405180830381600087803b151561055c57600080fd5b5af1151561056957600080fd5b5050506040518051905090508092505b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610613576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a723058200d3fc69a95888040027898c776d691cb76dea504f4b5e956bcd017d89191b45a0029",
+  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631625df91146100675780636fb35b43146100b85780637a1a5956146100e5578063a7f4377914610154575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610169565b604051808215151515815260200191505060405180910390f35b34156100c357600080fd5b6100cb610257565b604051808215151515815260200191505060405180910390f35b34156100f057600080fd5b61013a6004808035600019169060200190919080356000191690602001909190803560001916906020019091908035600019169060200190919080359060200190919050506103a2565b604051808215151515815260200191505060405180910390f35b341561015f57600080fd5b610167610584565b005b6000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141580156101ff57506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614155b1561020d5760009050610252565b816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190505b919050565b60008060008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16141515610399576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f636d616e61676572000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561034a57600080fd5b5af1151561035757600080fd5b5050506040518051905090508073ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614915061039e565b600091505b5090565b60008060006103af610257565b15156103be5760009250610579565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1663ec56a3736040518163ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180807f646f6361757468646200000000000000000000000000000000000000000000008152506020019050602060405180830381600087803b151561046d57600080fd5b5af1151561047a57600080fd5b50505060405180519050915060008273ffffffffffffffffffffffffffffffffffffffff1614156104ae5760009250610579565b8173ffffffffffffffffffffffffffffffffffffffff16637a1a595689898989896040518663ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180866000191660001916815260200185600019166000191681526020018460001916600019168152602001836000191660001916815260200182815260200195505050505050602060405180830381600087803b151561055c57600080fd5b5af1151561056957600080fd5b5050506040518051905090508092505b505095945050505050565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610613576000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16ff5b5600a165627a7a723058200d3fc69a95888040027898c776d691cb76dea504f4b5e956bcd017d89191b45a0029",
+  "sourceMap": "105:1083:1:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "105:1083:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;177:324:6;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;293:227:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;193:992:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;577:112:6;;;;;;;;;;;;;;177:324;235:11;380:3;372:4;;;;;;;;;;;:11;;;;:33;;;;;401:4;;;;;;;;;;;387:18;;:10;:18;;;;372:33;368:78;;;429:5;422:12;;;;368:78;463:8;456:4;;:15;;;;;;;;;;;;;;;;;;489:4;482:11;;177:324;;;;:::o;293:227:4:-;333:4;381:10;361:3;353:4;;;;;;;;;;;:11;;;;350:140;;;411:4;;;;;;;;;;;394:32;;;:46;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;381:59;;476:2;462:16;;:10;:16;;;455:23;;;;350:140;507:5;500:12;;293:227;;;:::o;193:992:1:-;310:8;403:17;805:12;336:14;:12;:14::i;:::-;335:15;331:60;;;374:5;367:12;;;;331:60;440:4;;;;;;;;;;;423:32;;;:45;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;403:65;;496:3;483:9;:16;;;479:207;;;669:5;662:12;;;;479:207;830:9;820:29;;;850:5;857:7;866:6;874;882:12;820:75;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;805:90;;1170:7;1163:14;;193:992;;;;;;;;;;:::o;577:112:6:-;631:4;;;;;;;;;;;617:18;;:10;:18;;;613:69;;;665:4;;;;;;;;;;;652:18;;;613:69;577:112::o",
+  "source": "pragma solidity ^0.4.18;\r\n\r\nimport './DocManagerEnabled.sol';\r\nimport './DocAuthDB.sol';\r\n\r\n// Doc Auth\r\ncontract DocAuth is DocManagerEnabled {\r\n\r\n    // Attempt to register the document\r\n    function register(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten) public returns (bool res) {\r\n        if (!isDocManager()) {\r\n            return false;\r\n        }\r\n\r\n        address docauthdb = ContractProvider(DOUG).contracts(\"docauthdb\");\r\n        if (docauthdb == 0x0) {\r\n            // document can not be registered\r\n            // Note - if registration costs money we should return it msg.sender.send(msg.value);\r\n            return false;\r\n        }\r\n\r\n        // Use the interface to call on the docauthdb contract. We pass allong all the parameters as well\r\n        bool success = DocAuthDB(docauthdb).register(_hash, _author, _title, _email, _dateWritten);\r\n\r\n        // if the transation failed, return the ether to the caller.\r\n        // note : we rekenen voor de moment geen kost aan -> dus dit stukje is misschien wat overbodig ?\r\n        if (!success) {\r\n            //msg.sender.send(msg.value);\r\n        }\r\n        return success;\r\n    }\r\n}",
+  "sourcePath": "C:\\BDA\\T1\\HowestBDAGroep1-master\\truffle\\contracts\\DocAuth.sol",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
   "ast": {
     "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuth.sol",
     "exportedSymbols": {
@@ -105,6 +127,7 @@
         ],
         "nodeType": "PragmaDirective",
         "src": "0:24:1"
+<<<<<<< HEAD
       },
       {
         "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocManagerEnabled.sol",
@@ -119,11 +142,31 @@
       },
       {
         "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuthDB.sol",
+=======
+      },
+      {
+        "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocManagerEnabled.sol",
+        "file": "./DocManagerEnabled.sol",
+        "id": 13,
+        "nodeType": "ImportDirective",
+        "scope": 76,
+        "sourceUnit": 371,
+        "src": "28:33:1",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuthDB.sol",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "file": "./DocAuthDB.sol",
         "id": 14,
         "nodeType": "ImportDirective",
         "scope": 76,
+<<<<<<< HEAD
         "sourceUnit": 254,
+=======
+        "sourceUnit": 246,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "src": "63:25:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -137,10 +180,17 @@
               "id": 15,
               "name": "DocManagerEnabled",
               "nodeType": "UserDefinedTypeName",
+<<<<<<< HEAD
               "referencedDeclaration": 286,
               "src": "125:17:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_DocManagerEnabled_$286",
+=======
+              "referencedDeclaration": 370,
+              "src": "125:17:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_DocManagerEnabled_$370",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                 "typeString": "contract DocManagerEnabled"
               }
             },
@@ -150,8 +200,13 @@
           }
         ],
         "contractDependencies": [
+<<<<<<< HEAD
           286,
           332
+=======
+          370,
+          563
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -159,8 +214,13 @@
         "id": 75,
         "linearizedBaseContracts": [
           75,
+<<<<<<< HEAD
           286,
           332
+=======
+          370,
+          563
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         ],
         "name": "DocAuth",
         "nodeType": "ContractDefinition",
@@ -192,11 +252,19 @@
                         "name": "isDocManager",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
+<<<<<<< HEAD
                         "referencedDeclaration": 285,
                         "src": "336:12:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                           "typeString": "function () view returns (bool)"
+=======
+                        "referencedDeclaration": 369,
+                        "src": "336:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_nonpayable$__$returns$_t_bool_$",
+                          "typeString": "function () returns (bool)"
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                         }
                       },
                       "id": 32,
@@ -325,7 +393,11 @@
                             "name": "DOUG",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
+<<<<<<< HEAD
                             "referencedDeclaration": 291,
+=======
+                            "referencedDeclaration": 522,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                             "src": "440:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -636,10 +708,17 @@
                           "name": "DocAuthDB",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
+<<<<<<< HEAD
                           "referencedDeclaration": 253,
                           "src": "820:9:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_contract$_DocAuthDB_$253_$",
+=======
+                          "referencedDeclaration": 245,
+                          "src": "820:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_DocAuthDB_$245_$",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                             "typeString": "type(contract DocAuthDB)"
                           }
                         },
@@ -653,7 +732,11 @@
                         "nodeType": "FunctionCall",
                         "src": "820:20:1",
                         "typeDescriptions": {
+<<<<<<< HEAD
                           "typeIdentifier": "t_contract$_DocAuthDB_$253",
+=======
+                          "typeIdentifier": "t_contract$_DocAuthDB_$245",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                           "typeString": "contract DocAuthDB"
                         }
                       },
@@ -750,6 +833,10 @@
                 }
               ]
             },
+<<<<<<< HEAD
+=======
+            "documentation": null,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
             "id": 74,
             "implemented": true,
             "isConstructor": false,
@@ -942,7 +1029,11 @@
     "src": "0:1188:1"
   },
   "legacyAST": {
+<<<<<<< HEAD
     "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuth.sol",
+=======
+    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuth.sol",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
     "exportedSymbols": {
       "DocAuth": [
         75
@@ -963,23 +1054,39 @@
         "src": "0:24:1"
       },
       {
+<<<<<<< HEAD
         "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocManagerEnabled.sol",
+=======
+        "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocManagerEnabled.sol",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "file": "./DocManagerEnabled.sol",
         "id": 13,
         "nodeType": "ImportDirective",
         "scope": 76,
+<<<<<<< HEAD
         "sourceUnit": 287,
+=======
+        "sourceUnit": 371,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "src": "28:33:1",
         "symbolAliases": [],
         "unitAlias": ""
       },
       {
+<<<<<<< HEAD
         "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/DocAuthDB.sol",
+=======
+        "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/DocAuthDB.sol",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "file": "./DocAuthDB.sol",
         "id": 14,
         "nodeType": "ImportDirective",
         "scope": 76,
+<<<<<<< HEAD
         "sourceUnit": 254,
+=======
+        "sourceUnit": 246,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         "src": "63:25:1",
         "symbolAliases": [],
         "unitAlias": ""
@@ -993,10 +1100,17 @@
               "id": 15,
               "name": "DocManagerEnabled",
               "nodeType": "UserDefinedTypeName",
+<<<<<<< HEAD
               "referencedDeclaration": 286,
               "src": "125:17:1",
               "typeDescriptions": {
                 "typeIdentifier": "t_contract$_DocManagerEnabled_$286",
+=======
+              "referencedDeclaration": 370,
+              "src": "125:17:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_DocManagerEnabled_$370",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                 "typeString": "contract DocManagerEnabled"
               }
             },
@@ -1006,8 +1120,13 @@
           }
         ],
         "contractDependencies": [
+<<<<<<< HEAD
           286,
           332
+=======
+          370,
+          563
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1015,8 +1134,13 @@
         "id": 75,
         "linearizedBaseContracts": [
           75,
+<<<<<<< HEAD
           286,
           332
+=======
+          370,
+          563
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
         ],
         "name": "DocAuth",
         "nodeType": "ContractDefinition",
@@ -1048,11 +1172,19 @@
                         "name": "isDocManager",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
+<<<<<<< HEAD
                         "referencedDeclaration": 285,
                         "src": "336:12:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_internal_view$__$returns$_t_bool_$",
                           "typeString": "function () view returns (bool)"
+=======
+                        "referencedDeclaration": 369,
+                        "src": "336:12:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_function_internal_nonpayable$__$returns$_t_bool_$",
+                          "typeString": "function () returns (bool)"
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                         }
                       },
                       "id": 32,
@@ -1181,7 +1313,11 @@
                             "name": "DOUG",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
+<<<<<<< HEAD
                             "referencedDeclaration": 291,
+=======
+                            "referencedDeclaration": 522,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                             "src": "440:4:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
@@ -1492,10 +1628,17 @@
                           "name": "DocAuthDB",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
+<<<<<<< HEAD
                           "referencedDeclaration": 253,
                           "src": "820:9:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_type$_t_contract$_DocAuthDB_$253_$",
+=======
+                          "referencedDeclaration": 245,
+                          "src": "820:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_DocAuthDB_$245_$",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                             "typeString": "type(contract DocAuthDB)"
                           }
                         },
@@ -1509,7 +1652,11 @@
                         "nodeType": "FunctionCall",
                         "src": "820:20:1",
                         "typeDescriptions": {
+<<<<<<< HEAD
                           "typeIdentifier": "t_contract$_DocAuthDB_$253",
+=======
+                          "typeIdentifier": "t_contract$_DocAuthDB_$245",
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
                           "typeString": "contract DocAuthDB"
                         }
                       },
@@ -1606,6 +1753,10 @@
                 }
               ]
             },
+<<<<<<< HEAD
+=======
+            "documentation": null,
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
             "id": 74,
             "implemented": true,
             "isConstructor": false,
@@ -1799,7 +1950,7 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
   },
   "networks": {
     "5777": {
@@ -1861,8 +2012,18 @@
       "links": {},
       "address": "0xfe74c01f5a7b48d612435b26f73de2fa31f4929d",
       "transactionHash": "0x1e337160f6e8933705b68394ebda39d5b6c3237cb7e0ba2deaba9f0f0e6febd3"
+    },
+    "1523559356352": {
+      "events": {},
+      "links": {},
+      "address": "0x098d0c7b527e559c617878a1a1d44e3f66d299ae",
+      "transactionHash": "0x3f74a74b8df0d4f5c7067d90cfbe9e5e8d753e9409294b84e2f7cc9e84e12dde"
     }
   },
   "schemaVersion": "2.0.0",
+<<<<<<< HEAD
   "updatedAt": "2018-04-12T17:43:45.226Z"
+=======
+  "updatedAt": "2018-04-12T19:19:33.652Z"
+>>>>>>> 116f95d46c13abd12d6717222fd97b469a786ff1
 }
