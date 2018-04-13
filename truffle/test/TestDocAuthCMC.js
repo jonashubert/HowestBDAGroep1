@@ -37,7 +37,7 @@ contract('DOUG', () => {
     return DocManagerinstance.register(_hash, _author, _title, _email, _dateWritten).then(() => {
       return DocManagerinstance.getDocument(_hash)
     }).then(x => {
-      assert.equal(x[3], _dateWritten, "authors should be equal")
+      assert.equal(x[3], _dateWritten, "dates should be equal")
     })
   })
   it("Should remove DocAuthDB", () => {
