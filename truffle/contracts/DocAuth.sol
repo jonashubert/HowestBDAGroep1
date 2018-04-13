@@ -29,4 +29,20 @@ contract DocAuth is DocManagerEnabled {
         }
         return success;
     }
+     function getDocument(bytes32 _hash) public view returns (bytes32,bytes32,bytes32,uint256,uint256, bool) {
+            address docauthdb = ContractProvider(DOUG).contracts("docauthdb");
+            bytes32 docAuthor;
+            bytes32 docTitle; 
+            bytes32 docEmail; 
+            uint256 docdateWritten; 
+            uint256 docdateRegistered; 
+            bool docisInitialized;
+
+
+            (docAuthor, docTitle, docEmail, docdateWritten, docdateRegistered, docisInitialized) = DocAuthDB(docauthdb).getDocument(_hash);
+
+
+         return (docAuthor, docTitle, docEmail, docdateWritten, docdateRegistered, docisInitialized);
+     }
+
 }

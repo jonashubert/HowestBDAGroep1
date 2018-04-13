@@ -29,7 +29,7 @@ App = {
         // Set the provider for our contract
         App.contracts.DocManager.setProvider(App.web3Provider);
       });
-  
+
       return App.bindEvents();
     },
   
@@ -57,7 +57,6 @@ App = {
         App.contracts.DocManager.deployed().then(function(instance) {
           docAuthChecker = instance;
   
-  
           var fileInput = document.getElementById('document');
           var file = fileInput.files[0];
           var reader = new FileReader();
@@ -74,7 +73,8 @@ App = {
                 $('.mainForm').hide();
                 $('#docinfo').show();
   
-                var isInitialized = tuple[5];
+               // var isInitialized = tuple[5];
+               var isInitialized = false;
                 if (isInitialized) {
                   var author = web3.toAscii(tuple[0]);
                   var title = web3.toAscii(tuple[1]);
@@ -136,10 +136,11 @@ App = {
   
         var account = accounts[0];
   
-        App.contracts.DocManager.deployed().then(function(instance) {
+        App.contracts.DocAuthDB.deployed().then(function(instance) {
           docAuthChecker = instance;
   
-  
+          
+
           var fileInput = document.getElementById('document');
           var file = fileInput.files[0];
           var reader = new FileReader();

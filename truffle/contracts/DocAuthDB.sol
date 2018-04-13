@@ -8,6 +8,8 @@ contract DocAuthDB is DougEnabled {
    //This is where we keep all the contracts
     mapping(bytes32 => Document) private documentLibrary;
 
+    uint public numDocuments;
+
     /// Function gets an entry from the document library. Returns the metadata of the document.
     /// Will always return a Document object, even when the document doesn't exist.
     /// Check the property "isInitialized" to confirm it's not an empty value.
@@ -29,7 +31,7 @@ contract DocAuthDB is DougEnabled {
                 _document.dateWritten = _dateWritten;
                 _document.dateRegistered = block.timestamp;
                 _document.isInitialized = true;
-
+                numDocuments++;
                 return true;
             }
            else {

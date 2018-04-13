@@ -29,6 +29,11 @@ contract Doug {
             return true;
     }
 
+    // get a contract from doug by name
+    function getContract(bytes32 _name) external view returns (address) {
+      return contracts[_name];
+    }
+
     // Remove a contract from Doug. We could also selfdestruct if we want to.
     function removeContract(bytes32 name) onlyOwner public returns (bool result){
         if (contracts[name] == 0x0) {
