@@ -34,8 +34,8 @@ contract('DOUG', () => {
     })
   })
   it("Should call register and register doc", () => {
-    return DocAuthinstance.register(_hash, _author, _title, _email, _dateWritten).then(() => {
-      return DocAuthDBinstance.getDocument(_hash)
+    return DocManagerinstance.register(_hash, _author, _title, _email, _dateWritten).then(() => {
+      return DocManagerinstance.getDocument(_hash)
     }).then(x => {
       assert.equal(x[0], _author, "authors should be equal")
     })

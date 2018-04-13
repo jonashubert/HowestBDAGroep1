@@ -136,7 +136,7 @@ App = {
   
         var account = accounts[0];
   
-        App.contracts.DocAuthDB.deployed().then(function(instance) {
+        App.contracts.DocManager.deployed().then(function(instance) {
           docAuthChecker = instance;
   
           
