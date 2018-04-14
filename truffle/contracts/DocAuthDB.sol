@@ -7,6 +7,7 @@ contract DocAuthDB is DougEnabled {
 
    //This is where we keep all the contracts
     mapping(bytes32 => Document) private documentLibrary;
+	bytes32[] hashArray;
 
     uint public numDocuments;
 
@@ -32,15 +33,16 @@ contract DocAuthDB is DougEnabled {
                 _document.dateRegistered = block.timestamp;
                 _document.isInitialized = true;
                 numDocuments++;
+				hashArray.push(_hash);
                 return true;
             }
            else {
                // Return if registration cannot be made
                //msg.sender.send(msg.value);
-               return false; 
+               return false;
             }
         }
-            
+
     }
 
     function isDocumentRegistered(bytes32 _hash) public view returns (bool) {
@@ -48,6 +50,21 @@ contract DocAuthDB is DougEnabled {
         (, , , , , _storedIsInitialized) = getDocument(_hash);
         return _storedIsInitialized;
     }
+
+	function getDocumentByAuthorName(bytes32 _author) public view returns (bytes32[10] result) {
+		bytes32 docAuthor;
+		for (uint i = 0; i < hashArray.length; i++) {
+			(docAuthor, , , , , ) = getDocument(hashArray[i]);
+			uint x = 0;
+			while (x < result.length) {
+				if (docAuthor == _author ) {
+					result[x] = hashArray[i];
+					x++;
+				}
+			}
+
+		}
+	}
 
     struct Document {
         bytes32  author;
@@ -59,4 +76,4 @@ contract DocAuthDB is DougEnabled {
     }
 
 
-} 
+}
