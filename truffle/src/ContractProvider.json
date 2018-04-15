@@ -21,14 +21,14 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b60db8061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a7230582009032947397e5c264674606983e1cfa3f59e51b9811a85631ac26235e88bb0d10029",
-  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a7230582009032947397e5c264674606983e1cfa3f59e51b9811a85631ac26235e88bb0d10029",
+  "bytecode": "0x6060604052341561000f57600080fd5b60db8061001d6000396000f300606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a72305820df486a7b11fe99e4ea0f7740a7bbc009d52bb92d5f3e116abc38fffdfafdac530029",
+  "deployedBytecode": "0x606060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063ec56a373146044575b600080fd5b3415604e57600080fd5b606660048080356000191690602001909190505060a8565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b60009190505600a165627a7a72305820df486a7b11fe99e4ea0f7740a7bbc009d52bb92d5f3e116abc38fffdfafdac530029",
   "sourceMap": "74:97:0:-;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "74:97:0:-;;;;;;;;;;;;;;;;;;;;;;;;107:61;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;157:7;107:61;;;:::o",
   "source": "pragma solidity ^0.4.17;\r\n\r\n// Interface for getting contracts from Doug\r\ncontract ContractProvider {\r\n    function contracts (bytes32 name) public returns (address) {}\r\n}\r\n",
-  "sourcePath": "c:\\Blockchain\\GitHub\\HowestBDAGroep1\\truffle\\contracts\\ContractProvider.sol",
+  "sourcePath": "C:\\BDA\\T1\\HowestBDAGroep1-master\\truffle\\contracts\\ContractProvider.sol",
   "ast": {
-    "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/ContractProvider.sol",
+    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/ContractProvider.sol",
     "exportedSymbols": {
       "ContractProvider": [
         10
@@ -68,6 +68,7 @@
               "src": "166:2:0",
               "statements": []
             },
+            "documentation": null,
             "id": 9,
             "implemented": true,
             "isConstructor": false,
@@ -156,7 +157,7 @@
     "src": "0:173:0"
   },
   "legacyAST": {
-    "absolutePath": "/c/Blockchain/GitHub/HowestBDAGroep1/truffle/contracts/ContractProvider.sol",
+    "absolutePath": "/C/BDA/T1/HowestBDAGroep1-master/truffle/contracts/ContractProvider.sol",
     "exportedSymbols": {
       "ContractProvider": [
         10
@@ -196,6 +197,7 @@
               "src": "166:2:0",
               "statements": []
             },
+            "documentation": null,
             "id": 9,
             "implemented": true,
             "isConstructor": false,
@@ -285,9 +287,9 @@
   },
   "compiler": {
     "name": "solc",
-    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+    "version": "0.4.21+commit.dfe3193c.Emscripten.clang"
   },
   "networks": {},
   "schemaVersion": "2.0.0",
-  "updatedAt": "2018-04-13T15:29:35.950Z"
+  "updatedAt": "2018-04-14T18:37:43.195Z"
 }

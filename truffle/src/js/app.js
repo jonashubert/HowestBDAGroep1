@@ -1,11 +1,11 @@
 App = {
     web3Provider: null,
     contracts: {},
-  
+
     init: function() {
       return App.initWeb3();
     },
-  
+
     initWeb3: function() {
       // Is there an injected web3 instance?
       if (typeof web3 !== 'undefined') {
@@ -15,64 +15,64 @@ App = {
         App.web3Provider = new Web3.providers.HttpProvider('http://localhost:8545');
       }
       web3 = new Web3(App.web3Provider);
-  
-  
+
+
       return App.initContract();
     },
-  
+
     initContract: function() {
       $.getJSON('DocManager.json', function(data) {
         // Get the necessary contract artifact file and instantiate it with truffle-contract
         var DocManagerArtifact = data;
         App.contracts.DocManager = TruffleContract(DocManagerArtifact);
-  
+
         // Set the provider for our contract
         App.contracts.DocManager.setProvider(App.web3Provider);
       });
 
       return App.bindEvents();
     },
-  
+
     bindEvents: function() {
       $(document).on('click', '#registerButton', App.register);
       $(document).on('click', '#checkAuthenticityButton', App.checkAuthenticity);
       $(document).on('click', '#searchDocumentButton', App.search);
-  
+
     },
-  
+
     register: function(event) {
       event.preventDefault();
       if(!$("#documentForm").valid()) { return false; }
       $('.overlay').show();
       $('.loaderContainer').show();
       var docAuthChecker;
-  
+
       web3.eth.getAccounts(function(error, accounts) {
         if (error) {
           console.log(error);
         }
-  
+
         var account = accounts[0];
-  
+
         App.contracts.DocManager.deployed().then(function(instance) {
           docAuthChecker = instance;
-  
+
           var fileInput = document.getElementById('document');
           var file = fileInput.files[0];
           var reader = new FileReader();
-  
+
           //note: gebruik van FileReader maakt het erg beperkt qua browser support
           //todo: uitzoeken welke, of het aanvaardbaar is. indien niet, anders oplossen.
           reader.onload = function(e) {
             //(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten,uint256 _dateRegistered)
             var hash = web3.sha3(reader.result);
-  
-  
+
+
             docAuthChecker.getDocument.call(hash).then(
               function(tuple) {
                 $('.mainForm').hide();
                 $('#docinfo').show();
-  
+
                // var isInitialized = tuple[5];
                var isInitialized = false;
                 if (isInitialized) {
@@ -104,19 +104,19 @@ App = {
                   result.then(function(result) {
                     $('.loaderContainer').hide();
                     $('.succesContainer').show();
-  
+
                   }, function(err) {
                     $('.loaderContainer').hide();
                     $('.errorContainer').show();
-  
+
                   });
                 }
               }
             )
           }
-  
+
           reader.readAsText(file);
-  
+
           return null;
         }).catch(function(err) {
           console.log(err.message);
@@ -128,35 +128,35 @@ App = {
       event.preventDefault();
       $(".overlay").show();
       var docAuthChecker;
-  
+
       web3.eth.getAccounts(function(error, accounts) {
         if (error) {
           console.log(error);
         }
-  
+
         var account = accounts[0];
-  
+
         App.contracts.DocManager.deployed().then(function(instance) {
           docAuthChecker = instance;
-  
-          
+
+
 
           var fileInput = document.getElementById('document');
           var file = fileInput.files[0];
           var reader = new FileReader();
-  
+
           //note: gebruik van FileReader maakt het erg beperkt qua browser support
           //todo: uitzoeken welke, of het aanvaardbaar is. indien niet, anders oplossen.
           reader.onload = function(e) {
             //(bytes32 _hash, bytes32 _author,bytes32 _title,bytes32 _email,uint256 _dateWritten,uint256 _dateRegistered)
             var hash = web3.sha3(reader.result);
-  
-  
+
+
             docAuthChecker.getDocument.call(hash).then(
               function(tuple) {
                 $("#mainForm").hide();
                   $("#docinfo").show();
-  
+
                 var isInitialized = tuple[5];
                 if (isInitialized) {
                     var author = web3.toAscii(tuple[0]);
@@ -176,21 +176,21 @@ App = {
                     $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
                     $("#docinfo").append('<hr>');
                     $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/check.html\'">Check Another Document</button>')
-  
-  
+
+
                 } else {
                   $("#docinfo").append('This document is not yet registered!')
                   $("#docinfo").append('<hr>');
                   $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/index.html\'">Register</button>')
-  
+
                 }
                 $(".overlay").hide();
               }
             )
           }
-  
+
           reader.readAsText(file);
-  
+
           return null;
         }).catch(function(err) {
           console.log(err.message);
@@ -202,25 +202,25 @@ App = {
         event.preventDefault();
         $(".overlay").show();
         var docAuthChecker;
-    
+
         web3.eth.getAccounts(function(error, accounts) {
           if (error) {
             console.log(error);
           }
-    
+
           var account = accounts[0];
-    
+
           App.contracts.DocManager.deployed().then(function(instance) {
             docAuthChecker = instance;
-    
-    
-            var authorInput = document.getElementById('author');
-            
-              docAuthChecker.getDocumentByAuthorName.call(authorinput).then(
+
+
+            var authorInput = $('#author').val();
+
+              docAuthChecker.getDocumentByAuthorName.call(authorInput).then(
                 function(tuple) {
                   $("#mainForm").hide();
                     $("#docinfo").show();
-                   /* PLACEHOLDER 
+                   /* PLACEHOLDER
                   var isInitialized = tuple[5];
                   if (isInitialized) {
                       var author = web3.toAscii(tuple[0]);
@@ -240,19 +240,19 @@ App = {
                       $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
                       $("#docinfo").append('<hr>');
                       $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/find.html\'">Search for Another Author</button>')
-                
-    
+
+
                   } else {
                     $("#docinfo").append('No documents found for this author')
                     $("#docinfo").append('<hr>');
                     $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/index.html\'">Register</button>')
-    
+
                   } */
                   $(".overlay").hide();
                 }
               )
-        
-        
+
+
             return null;
           }).catch(function(err) {
             console.log(err.message);
@@ -260,12 +260,11 @@ App = {
         });
 
     }
-  
+
   };
-  
+
   $(function() {
     $(window).on('load', function() {
       App.init();
     });
   });
-  
