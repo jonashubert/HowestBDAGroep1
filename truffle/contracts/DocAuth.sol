@@ -45,10 +45,10 @@ contract DocAuth is DocManagerEnabled {
          return (docAuthor, docTitle, docEmail, docdateWritten, docdateRegistered, docisInitialized);
      }
 
-	 function getDocumentByAuthorName(bytes32 _author) public view returns (bytes32[10]) {
+	 function getDocumentByAuthorName(bytes32 _author) public view returns (bytes32[5],uint256[5], uint256[5], bool[5], bytes32, bytes32) {
 		 address docauthdb = ContractProvider(DOUG).contracts("docauthdb");
 
-		 return DocAuth(docauthdb).getDocumentByAuthorName(_author);
+		 return  DocAuth(docauthdb).getDocumentByAuthorName(_author);
 	}
 
 }

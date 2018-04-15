@@ -7,15 +7,13 @@ contract DocAuthDB is DougEnabled {
 
    //This is where we keep all the contracts
     mapping(bytes32 => Document) private documentLibrary;
-	bytes32[] hashArray;
-
-    uint public numDocuments;
+    mapping(bytes32 => Document[5]) private authorLibrary;
 
     /// Function gets an entry from the document library. Returns the metadata of the document.
     /// Will always return a Document object, even when the document doesn't exist.
     /// Check the property "isInitialized" to confirm it's not an empty value.
     function getDocument(bytes32 _hash) public view returns (bytes32,bytes32,bytes32,uint256,uint256, bool) {
-        //todo: teruggeven van struct is blijkbaar niet goed. Hervormen naar "losse variabelen".
+        //todo: teruggeven van struct is blijkbaar niet goed. Hervormen naar tuple.
         //https://ethereum.stackexchange.com/questions/3609/returning-a-struct-and-reading-via-web3/3614#3614
         Document storage _document = documentLibrary[_hash];
         return (_document.author, _document.title, _document.email, _document.dateWritten, _document.dateRegistered, _document.isInitialized);
@@ -32,8 +30,14 @@ contract DocAuthDB is DougEnabled {
                 _document.dateWritten = _dateWritten;
                 _document.dateRegistered = block.timestamp;
                 _document.isInitialized = true;
-                numDocuments++;
-				hashArray.push(_hash);
+
+                authorLibrary[_author][0] = _document;
+                //uint _authorLibLength = authorLibrary[_author].length;
+                //if(_authorLibLength < 5) //check if our search array isn't already full before adding another.
+                //{
+                authorLibrary[_author][0] = _document;
+                //}
+
                 return true;
             }
            else {
@@ -42,7 +46,6 @@ contract DocAuthDB is DougEnabled {
                return false;
             }
         }
-
     }
 
     function isDocumentRegistered(bytes32 _hash) public view returns (bool) {
@@ -51,19 +54,19 @@ contract DocAuthDB is DougEnabled {
         return _storedIsInitialized;
     }
 
-	function getDocumentByAuthorName(bytes32 _author) public view returns (bytes32[10] result) {
-		bytes32 docAuthor;
-		for (uint i = 0; i < hashArray.length; i++) {
-			(docAuthor, , , , , ) = getDocument(hashArray[i]);
-			uint x = 0;
-			while (x < result.length) {
-				if (docAuthor == _author ) {
-					result[x] = hashArray[i];
-					x++;
-				}
-			}
+	function getDocumentByAuthorName(bytes32 _author) public returns (bytes32[5] title,uint256[5] dateWritten, uint256[5] dateRegistered, bool[5] isInitialized, bytes32 author, bytes32 email) {
+		Document[5] _docs = authorLibrary[_author];
 
-		}
+    for (uint i = 0; i < 5; i++)
+    {
+        title[i] = _docs[i].title;
+        dateWritten[i] = _docs[i].dateWritten;
+        dateRegistered[i] = _docs[i].dateRegistered;
+        isInitialized[i] = _docs[i].isInitialized;
+    }
+    author = _docs[0].author;
+    email = _docs[0].email;
+    return (title, dateWritten, dateRegistered, isInitialized, author, email);
 	}
 
     struct Document {

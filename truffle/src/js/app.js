@@ -214,7 +214,7 @@ App = {
             docAuthChecker = instance;
 
 
-            var authorInput = $('#author').val();
+            var authorInput = web3.toHex($('#author').val());
 
               docAuthChecker.getDocumentByAuthorName.call(authorInput).then(
                 function(tuple) {
