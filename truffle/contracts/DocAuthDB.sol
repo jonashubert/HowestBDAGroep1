@@ -31,12 +31,12 @@ contract DocAuthDB is DougEnabled {
                 _document.dateRegistered = block.timestamp;
                 _document.isInitialized = true;
 
-                authorLibrary[_author][0] = _document;
-                //uint _authorLibLength = authorLibrary[_author].length;
-                //if(_authorLibLength < 5) //check if our search array isn't already full before adding another.
-                //{
-                authorLibrary[_author][0] = _document;
-                //}
+                uint i = 0;
+                while(authorLibrary[_author][i].isInitialized && i < 5) //limited to max 5
+                {
+                  i++;
+                }
+                authorLibrary[_author][i] = _document;
 
                 return true;
             }

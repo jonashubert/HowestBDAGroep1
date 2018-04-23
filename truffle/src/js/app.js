@@ -219,38 +219,43 @@ App = {
               docAuthChecker.getDocumentByAuthorName.call(authorInput).then(
                 function(tuple) {
                   $("#mainForm").hide();
-                    $("#docinfo").show();
-                   /* PLACEHOLDER
-                  var isInitialized = tuple[5];
-                  if (isInitialized) {
-                      var author = web3.toAscii(tuple[0]);
-                      var title = web3.toAscii(tuple[1]);
-                      var email = web3.toAscii(tuple[2]);
-                      var dateWrittenTemp = Date.parseExact(tuple[3].toString(),"yyyyMMdd");
-                      var dateWritten = dateWrittenTemp.toString("dd-MM-yyyy");
-                      var dateRegisteredTemp = new Date(tuple[4] * 1000); //convert unix timestamp to ms
-                      var dateRegistered =  dateRegisteredTemp.toString("dd-MM-yyyy HH:mm");
-                      $('#docinfo').css('font-size','120%');
-                      $("#docinfo").append("<h3 class='alert-heading'>This document was already registered!</h3><h4>Here's some information about it:</h4>")
-                      $("#docinfo").append('<hr>');
-                      $("#docinfo").append('<p class="mb-0"><strong>Author:</strong> ' + author + '</p>')
-                      $("#docinfo").append('<p class="mb-0"><strong>Title:</strong> ' + title + '</p>')
-                      $("#docinfo").append('<p class="mb-0"><strong>Author\'s emailaddress:</strong> ' + email + '</p>')
-                      $("#docinfo").append('<p class="mb-0"><strong>Written on:</strong> ' + dateWritten + '</p>')
-                      $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
-                      $("#docinfo").append('<hr>');
-                      $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/find.html\'">Search for Another Author</button>')
+                  $("#docinfo").show();
+                  var i = 0;
+                  while(tuple[3][i] && i < 5) //check isInitialized
+                  {
+                    var title = web3.toAscii(tuple[0][i]);
+                    var email = web3.toAscii(tuple[5]);
+                    var author = web3.toAscii(tuple[4]);
+                    var dateWrittenTemp = Date.parseExact(tuple[1][i].toString(),"yyyyMMdd");
+                    var dateWritten = dateWrittenTemp.toString("dd-MM-yyyy");
+                    var dateRegisteredTemp = new Date(tuple[2][i] * 1000); //convert unix timestamp to ms
+                    var dateRegistered =  dateRegisteredTemp.toString("dd-MM-yyyy HH:mm");
 
+                    $("#docinfo").append('<hr>');
+                    $("#docinfo").append('<p class="mb-0"><strong>Author:</strong> ' + author + '</p>')
+                    $("#docinfo").append('<p class="mb-0"><strong>Title:</strong> ' + title + '</p>')
+                    $("#docinfo").append('<p class="mb-0"><strong>Author\'s emailaddress:</strong> ' + email + '</p>')
+                    $("#docinfo").append('<p class="mb-0"><strong>Written on:</strong> ' + dateWritten + '</p>')
+                    $("#docinfo").append('<p class="mb-0"><strong>Registered on:</strong> ' + dateRegistered + '</p>')
+                    $("#docinfo").append('<hr>');
 
-                  } else {
+                    i++;
+                  }
+                  if(i==4)
+                  {
+                    $("#docinfo").append('<strong>There may be more documents attributed to this author, but they are not displayed here.</strong>');
+                  }
+
+                  if(!tuple[3][0])
+                  {
                     $("#docinfo").append('No documents found for this author')
                     $("#docinfo").append('<hr>');
                     $("#docinfo").append('<button type="button" class="btn btn-primary" onclick="window.location=\'/index.html\'">Register</button>')
 
-                  } */
+                  }
                   $(".overlay").hide();
                 }
-              )
+              );
 
 
             return null;
